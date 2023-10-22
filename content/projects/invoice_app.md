@@ -6,10 +6,9 @@ type: page
 
 ### An invoice app create by T3 stack
 
-An invoice app create by T3 stack (Tailwindcss, Typescript, Nextjs , Prisma , Mysql , React-query , React-hook-form)
+An invoice apps created by T3 stack (Tailwindcss, Typescript, Nextjs , Prisma , Mysql , React-query , React-hook-form)
 
-A simple invoice app just to showcase the T3 stack. (A project from by frontend mentor for developer to practice their frontend skill)
-
+A simple full stack invoice apps just to showcase the T3 stack. (A project from frontend mentor for developer to practice their frontend skill)
 
 ![app_screenshot](/images/invoice_app_screenshot.png)
 

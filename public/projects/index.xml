@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on JIA YIs Blog</title>
+    <link>http://jyooi.com/projects/</link>
+    <description>Recent content in Projects on JIA YIs Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="http://jyooi.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Invoice app</title>
+      <link>http://jyooi.com/projects/invoice_app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://jyooi.com/projects/invoice_app/</guid>
+      <description>An invoice app create by T3 stack An invoice app create by T3 stack (Tailwindcss, Typescript, Nextjs , Prisma , Mysql , React-query , React-hook-form)
+A simple invoice app just to showcase the T3 stack. (A project from by frontend mentor for developer to practice their frontend skill)
+🚀 Demo Site
+🎨 Figma Design
+🐙 Github Repo</description>
+    </item>
+    
+  </channel>
+</rss>

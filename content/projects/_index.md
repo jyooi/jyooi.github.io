@@ -6,6 +6,4 @@ type: page
 
 ### Hello my projects are
 
-1. [Tatooine](/projects/tatooine/)
-2. [Hydra](/projects/hydra/)
-3. [Bludhaven](/projects/bludhaven/)
+1. [Invoice app (T3 app)](/projects/invoice_app/)

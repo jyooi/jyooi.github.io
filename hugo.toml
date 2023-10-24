@@ -3,7 +3,7 @@ defaultContentLanguage = "en"
 languageCode = "en"
 enableEmoji = true
 
-title = "JIA YIs Blog"
+title = "嘉毅 ?? Jia Yi"
 
 theme = "gokarna"
 
@@ -57,7 +57,7 @@ enableRobotsTXT = true
   avatarSize = "size-xl"
 
   # Description to display on homepage
-  description = "嘉毅 ?? Jia Yi;  Software Crafter , Boardgame enthusiast, Father to be"
+  description = ""
 
   # Accent color is displayed when you hover over <a> tags
   accentColor = "#FF4D4D"

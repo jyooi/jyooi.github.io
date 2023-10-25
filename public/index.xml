@@ -1,19 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>JIA YIs Blog</title>
+    <title>嘉毅 ?? Jia Yi</title>
     <link>http://jyooi.com/</link>
-    <description>Recent content on JIA YIs Blog</description>
+    <description>Recent content on 嘉毅 ?? Jia Yi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="http://jyooi.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://jyooi.com/index-about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://jyooi.com/index-about/</guid>
+      <description>About me I am a software crafter who is passionate about building quality software that is maintainable and scalable. I am also a boardgame enthusiast and a father to be
+I like building side projects on my free time , feel free to checkout my projects under the projects tab
+Currently i am building a chat app using Elixir to explore the language and its ecosystem
+Feel free to connect and chat with me</description>
+    </item>
+    
     <item>
       <title>Invoice app</title>
       <link>http://jyooi.com/projects/invoice_app/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://jyooi.com/projects/invoice_app/</guid>
-      <description>An invoice app create by T3 stack An invoice app create by T3 stack (Tailwindcss, Typescript, Nextjs , Prisma , Mysql , React-query , React-hook-form)
-A simple invoice app just to showcase the T3 stack. (A project from by frontend mentor for developer to practice their frontend skill)
+      <description>An invoice app create by T3 stack An invoice apps created by T3 stack (Tailwindcss, Typescript, Nextjs , Prisma , Mysql , React-query , React-hook-form)
+A simple full stack invoice apps just to showcase the T3 stack. (A project from front-end mentor for developer to practice their front-end skills)
 🚀 Demo Site
 🎨 Figma Design
 🐙 Github Repo</description>

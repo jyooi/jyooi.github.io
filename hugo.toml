@@ -64,7 +64,7 @@ enableRobotsTXT = true
 
   # You can use this to inject any HTML in the <head> tag.
   # Ideal usecase for this is to import custom js/css or add your analytics snippet
-  customHeadHTML = ""
+  customHeadHTML = "<script async src="https://analytics.eu.umami.is/script.js" data-website-id="26bd51dd-9842-40a1-be53-a8f8c8be93d7"></script>"
 
 
   socialIcons = [
@@ -78,3 +78,5 @@ enableRobotsTXT = true
 
   # Footer text
   footer = "© 2023 JIA YI"
+
+  gtm = ""

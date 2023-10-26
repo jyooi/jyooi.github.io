@@ -12,7 +12,7 @@ A simple full stack invoice apps just to showcase the T3 stack. (A project from 
 
 ![app_screenshot](/images/invoice_app_screenshot.png)
 
-[:rocket: Demo Site](https://invoice-app-jyooi.vercel.app/)
+[:rocket: Demo Site](https://invoice-demo.jyooi.com/)
 
 [:art: Figma Design](https://www.figma.com/file/JLdjqmOYSgXEGbxcygVeVY/invoice-app?type=design&node-id=0-1&mode=design&t=uCXQtmIqfkyLsR4P-0)
 

@@ -8,7 +8,7 @@
 
 - Feel free to connect and chat with me
 
-- [My CV](/JIA_YI_OOI_-_Senior_Frontend_Engineer.pdf)
+- [My CV](/JIA_YI_OOI_-_Senior_Software_Engineer.pdf)
 
 
 ### Stay tuned for my first post...

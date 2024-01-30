@@ -1,10 +1,10 @@
 # About me
 
-- I am a software crafter who is passionate about building quality software that is maintainable and scalable. I am also a boardgame enthusiast and a father to be
+- I am a software crafter passionate about building quality, maintainable, scalable software. I am also a boardgame enthusiast and a father-to-be
 
-- I like building side projects on my free time , feel free to checkout my projects under the projects tab
+- I like building side projects in my free time; feel free to check my projects under the Projects tab
 
-- Currently i am building a chat app using Elixir to explore the language and its ecosystem
+- I am currently exploring the Elixir ecosystem 
 
 - Feel free to connect and chat with me
 

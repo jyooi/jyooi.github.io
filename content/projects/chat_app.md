@@ -5,7 +5,7 @@ type: page
 
 ### A Simple realtime chat-app with Elixir Pheonix and LiveView
 
-An realtime chat apps created is by T3 stack (Pheonix LiveView , Postgres , Fly.io)
+An realtime chat apps created by Pheonix LiveView , Postgres , Pheonix.PubSub
 
 A simple real-time chat app with Pheonix LiveView, and because of the nature of bi-direction communication, Capability with LiveView only takes me a couple of hours to hack this out, so I did not set up WebSocket at first as LiveView is updating the dom through web socket and the server processes everything including the dom update.
 

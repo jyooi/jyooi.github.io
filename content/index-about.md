@@ -6,6 +6,6 @@
 
 - Currently exploring the Elixir/Erlang , Pheonix ecosystem , OTP / BEAM
 
-- Feel free to connect and chat with me
+- Feel free to connect and chat with me [here](https://cal.com/jyooi/15min)
 
 - [My CV](/JIA_YI_OOI_-_Senior_Software_Engineer.pdf)

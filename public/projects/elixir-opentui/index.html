@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang="en" data-page="tags">
+<html lang="en" data-page="page">
 <head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="color-scheme" content="dark">
 <meta name="theme-color" content="#0c0d0c">
 
-<title>Tags — jyooi // jia yi ooi</title><meta name="description" content="Jia Yi Ooi — senior full-stack engineer in Penang. React, FastAPI, Elixir. Building real-time systems.">
+<title>elixir-opentui — jyooi // jia yi ooi</title><meta name="description" content="Jia Yi Ooi — senior full-stack engineer in Penang. React, FastAPI, Elixir. Building real-time systems.">
 <meta name="keywords" content="Jia Yi Ooi, jyooi, senior full-stack engineer, Penang, React, FastAPI, Elixir, Phoenix, TypeScript">
 <meta name="author" content="Jia Yi Ooi">
 
@@ -42,7 +42,7 @@
     <span class="dot dot--green"></span>
   </div>
   <div class="topbar__title">
-    <span class="topbar__user">jyooi</span><span class="topbar__sep">@</span><span class="topbar__host">penang</span><span class="topbar__sep">:</span><span class="topbar__path">~</span><span class="topbar__sep">/</span><span class="topbar__path">tags</span>
+    <span class="topbar__user">jyooi</span><span class="topbar__sep">@</span><span class="topbar__host">penang</span><span class="topbar__sep">:</span><span class="topbar__path">~</span><span class="topbar__sep">/</span><span class="topbar__path">elixir-opentui</span>
   </div>
   <div class="topbar__clock" id="js-clock" aria-live="off">--:--:-- MYT</div>
 </header>
@@ -58,10 +58,17 @@
 
     <main class="content">
 <article class="single">
-  <a class="single__back" href="/">home</a>
-  <h1 class="single__title">Tags</h1>
+  <a class="single__back" href="/#projects">back to index</a>
+  <h1 class="single__title">elixir-opentui</h1>
+  <p class="single__meta">
+    <span class="dim">type</span> page <span class="dim">·</span> <a href="https://github.com/jyooi/elixir-opentui" target="_blank" rel="noopener" style="color: var(--amber)">repo</a>
+  </p>
   <article>
-    
+    <h3 id="tui-primitives-on-the-beam">TUI primitives on the BEAM</h3>
+<p>I’m porting <a href="https://github.com/sst/opentui">OpenTUI</a> — a TypeScript terminal UI toolkit — over to Elixir. The aim is to bring composable TUI primitives (panes, layouts, inputs, ANSI buffered rendering) into reach of Elixir programs, while leaning into what the BEAM gives us for free: lightweight processes per widget, message-passing for input/render loops, and OTP supervision around long-running terminal sessions.</p>
+<p>This pairs naturally with <a href="https://hexdocs.pm/phoenix_live_view">Phoenix LiveView</a> thinking — a render tree that diffs and patches — only the “DOM” is the terminal cell grid.</p>
+<p><a href="https://github.com/jyooi/elixir-opentui">github.com/jyooi/elixir-opentui</a></p>
+
   </article>
 </article>
 

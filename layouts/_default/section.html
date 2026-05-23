@@ -1,0 +1,35 @@
+{{ define "main" }}
+<article class="single">
+  <a class="single__back" href="/">home</a>
+  <h1 class="single__title">{{ .Title }}</h1>
+  <article>
+    {{ .Content }}
+  </article>
+
+  {{- if eq .Section "projects" }}
+  <div class="projects" style="margin-top: 2rem;">
+    {{- range $i, $p := .RegularPages }}
+    <article class="project">
+      <header class="project__head">
+        <span class="project__no">{{ printf "%02d" (add $i 1) }}</span>
+        <h3 class="project__title">
+          <a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a>
+        </h3>
+        {{- if $p.Params.active }}
+        <span class="project__status"><span class="pulse"></span>active</span>
+        {{- end }}
+      </header>
+      {{- with $p.Params.summary }}
+      <p class="project__desc">{{ . }}</p>
+      {{- end }}
+      <div class="project__links">
+        <a href="{{ $p.RelPermalink }}">case</a>
+        {{- with $p.Params.repo }}<a href="{{ . }}" target="_blank" rel="noopener">repo</a>{{ end }}
+        {{- with $p.Params.demo }}<a href="{{ . }}" target="_blank" rel="noopener">demo</a>{{ end }}
+      </div>
+    </article>
+    {{- end }}
+  </div>
+  {{- end }}
+</article>
+{{ end }}

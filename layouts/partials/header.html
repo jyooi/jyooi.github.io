@@ -1,0 +1,20 @@
+<header class="topbar" aria-label="Terminal header">
+  <div class="topbar__chrome" aria-hidden="true">
+    <span class="dot dot--red"></span>
+    <span class="dot dot--amber"></span>
+    <span class="dot dot--green"></span>
+  </div>
+  <div class="topbar__title">
+    <span class="topbar__user">jyooi</span><span class="topbar__sep">@</span><span class="topbar__host">penang</span><span class="topbar__sep">:</span><span class="topbar__path">~</span>
+    {{- if not .IsHome }}<span class="topbar__sep">/</span><span class="topbar__path">{{ .Title | lower | replaceRE "[^a-z0-9_-]+" "-" }}</span>{{- end }}
+  </div>
+  <div class="topbar__clock" id="js-clock" aria-live="off">--:--:-- MYT</div>
+</header>
+
+<nav class="navbar" aria-label="Primary">
+  <a href="/" class="nav-link{{ if .IsHome }} is-active{{ end }}"><span class="nav-link__key">[h]</span>home</a>
+  <a href="/#experience" class="nav-link"><span class="nav-link__key">[e]</span>experience</a>
+  <a href="/#projects" class="nav-link"><span class="nav-link__key">[p]</span>projects</a>
+  <a href="/#contact" class="nav-link"><span class="nav-link__key">[c]</span>contact</a>
+  <a href="https://github.com/jyooi" class="nav-link nav-link--external" rel="noopener" target="_blank"><span class="nav-link__key">[g]</span>github<span class="nav-link__ext">↗</span></a>
+</nav>

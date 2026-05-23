@@ -1,0 +1,78 @@
+- company: uchat
+  role: Senior Software Engineer — Business unit
+  location: Remote, Singapore
+  start: Nov 2024
+  end: Present
+  description: >-
+    Building real-time messaging features for the business inbox at
+    business.uchat.social — the official-account side of a consumer
+    messaging app in Thailand. Full-stack across a React + TypeScript
+    frontend and a FastAPI backend on Kubernetes.
+  stack:
+    - React
+    - TypeScript
+    - Vite
+    - TanStack Router
+    - Socket.IO
+    - FastAPI
+    - Kubernetes
+
+- company: Accomy
+  role: Senior Software Engineer
+  location: Remote, Singapore
+  start: Feb 2024
+  end: Oct 2024
+  description: >-
+    Led the frontend team to ship the MVP of a corporate hotel booking
+    platform. Set up the Next.js + TypeScript codebase from scratch and
+    drove architecture decisions with product and design through launch.
+  stack:
+    - Next.js
+    - TypeScript
+    - React
+
+- company: Coinalpha (Hummingbot)
+  role: Software Engineer
+  location: Remote, US
+  start: Jun 2021
+  end: Nov 2023
+  description: >-
+    Built and maintained the React frontend and FastAPI backend for the
+    Hummingbot dMiner market-making platform. Integrated MetaMask and
+    Tezos wallets, reworked the build pipeline, and used Chrome DevTools
+    memory profiling to fix leaks in long-running pages.
+  stack:
+    - React
+    - FastAPI
+    - Web3
+    - MetaMask
+    - Tezos
+
+- company: Areca System
+  role: Contract Software Engineer
+  location: Penang, MY
+  start: Aug 2021
+  end: May 2022
+  description: >-
+    Built a supermarket POS from scratch — cashier UI, transaction flows,
+    e-wallet gateway integration, 8-bit LCD customer display, plus an OTA
+    update pipeline so in-store terminals could deploy remotely.
+  stack:
+    - Electron
+    - Node.js
+    - POS hardware
+    - OTA
+
+- company: Aglive Pty Ltd
+  role: Software Engineer
+  location: Remote, Australia
+  start: Nov 2017
+  end: Jun 2019
+  description: >-
+    Built and maintained the dashboard for a livestock and freight
+    tracking system. Led data deduplication on Austracker (truck tracking)
+    to improve downstream report quality.
+  stack:
+    - React
+    - Node.js
+    - Tracking systems

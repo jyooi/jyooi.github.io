@@ -1,0 +1,14 @@
+{{ define "main" }}
+<article class="single">
+  <a class="single__back" href="/#projects">back to index</a>
+  <h1 class="single__title">{{ .Title }}</h1>
+  <p class="single__meta">
+    <span class="dim">type</span> {{ .Type }}
+    {{- if .Params.repo }} <span class="dim">·</span> <a href="{{ .Params.repo }}" target="_blank" rel="noopener" style="color: var(--amber)">repo</a>{{ end }}
+    {{- if .Params.demo }} <span class="dim">·</span> <a href="{{ .Params.demo }}" target="_blank" rel="noopener" style="color: var(--amber)">demo</a>{{ end }}
+  </p>
+  <article>
+    {{ .Content }}
+  </article>
+</article>
+{{ end }}

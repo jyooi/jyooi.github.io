@@ -1,0 +1,36 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0c0d0c">
+
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}</title>
+
+{{- $desc := .Site.Params.description | default "Jia Yi Ooi — senior full-stack engineer in Penang. Real-time systems, React, FastAPI, Elixir." -}}
+<meta name="description" content="{{ $desc }}">
+{{- with .Site.Params.metaKeywords }}
+<meta name="keywords" content="{{ delimit . ", " }}">
+{{- end }}
+<meta name="author" content="Jia Yi Ooi">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ .Site.Title }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:url" content="{{ .Site.BaseURL }}">
+<meta property="og:image" content="{{ .Site.BaseURL }}images/profile-pic.jpeg">
+<meta name="twitter:card" content="summary">
+
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+
+{{- with .Site.Params.customHeadHTML }}
+{{ . | safeHTML }}
+{{- end }}

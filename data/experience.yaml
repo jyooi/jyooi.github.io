@@ -51,8 +51,8 @@
 - company: Areca System
   role: Contract Software Engineer
   location: Penang, MY
-  start: Aug 2021
-  end: May 2022
+  start: Jul 2020
+  end: May 2021
   description: >-
     Built a supermarket POS from scratch — cashier UI, transaction flows,
     e-wallet gateway integration, 8-bit LCD customer display, plus an OTA
@@ -67,7 +67,7 @@
   role: Software Engineer
   location: Remote, Australia
   start: Nov 2017
-  end: Jun 2019
+  end: Jun 2020
   description: >-
     Built and maintained the dashboard for a livestock and freight
     tracking system. Led data deduplication on Austracker (truck tracking)

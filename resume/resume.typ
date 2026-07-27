@@ -49,7 +49,7 @@
 
   #v(-0.35em)
   #text(size: 9pt)[
-    Penang, Malaysia (UTC+8) · Open to remote and relocation · +60 16 420 0222 · #link("mailto:me@jyooi.com")[me\@jyooi.com]
+    Penang, Malaysia (UTC+8) · Open to remote and relocation · #link("mailto:me@jyooi.com")[me\@jyooi.com]
   ]
 
   #v(-0.55em)

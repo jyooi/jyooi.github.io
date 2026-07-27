@@ -8,8 +8,8 @@ enableRobotsTXT = true
 title = "jyooi // jia yi ooi"
 
 [params]
-  description = "Jia Yi Ooi — senior full-stack engineer in Penang. React, FastAPI, Elixir. Building real-time systems."
-  metaKeywords = ["Jia Yi Ooi", "jyooi", "senior full-stack engineer", "Penang", "React", "FastAPI", "Elixir", "Phoenix", "TypeScript"]
+  description = "Jia Yi Ooi — senior full-stack engineer in Penang. Typed UI component systems and the real-time services behind them. React, TypeScript, FastAPI, Kubernetes, Elixir."
+  metaKeywords = ["Jia Yi Ooi", "jyooi", "senior full-stack engineer", "Penang", "React", "TypeScript", "FastAPI", "Kubernetes", "Elixir", "Zig", "design systems", "real-time systems"]
   resume = "/JiaYi_Ooi_Resume.pdf"
 
   customHeadHTML = """

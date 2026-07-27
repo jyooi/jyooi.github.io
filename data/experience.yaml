@@ -1,13 +1,28 @@
+- company: Sabbatical
+  role: SRE / platform upskilling
+  location: Penang, MY
+  start: Apr 2026
+  end: Present
+  description: >-
+    Preparing for the Certified Kubernetes Administrator (CKA) exam and
+    deepening SRE and platform tooling. Building elixir-opentui, a hobby
+    project porting a TypeScript terminal UI library to Elixir.
+  stack:
+    - Kubernetes
+    - SRE
+    - Elixir
+
 - company: uchat
-  role: Senior Software Engineer — Business unit
+  role: Senior Software Engineer - Business unit
   location: Remote, Singapore
   start: Nov 2024
   end: Apr 2026
   description: >-
-    Built real-time messaging features for the business inbox at
-    business.uchat.social — the official-account side of a consumer
-    messaging app in Thailand. Full-stack across a React + TypeScript
-    frontend and a FastAPI backend on Kubernetes.
+    Shipped the real-time business inbox at business.uchat.social - 500+
+    companies running B2C conversations, 100k+ customer messages a day -
+    as one of 4 engineers across a React + TypeScript frontend and a
+    FastAPI backend on Kubernetes. Load-tested the chat service to 100k
+    concurrent connections to surface bottlenecks before traffic scaled.
   stack:
     - React
     - TypeScript
@@ -23,9 +38,10 @@
   start: Feb 2024
   end: Oct 2024
   description: >-
-    Led the frontend team to ship the MVP of a corporate hotel booking
-    platform. Set up the Next.js + TypeScript codebase from scratch and
-    drove architecture decisions with product and design through launch.
+    Led 2 frontend engineers to ship the MVP of a corporate hotel booking
+    platform in 4 months, from empty repo to launch. Set up the Next.js +
+    TypeScript codebase from scratch and drove architecture decisions with
+    product and design through launch.
   stack:
     - Next.js
     - TypeScript
@@ -37,10 +53,11 @@
   start: Jun 2021
   end: Nov 2023
   description: >-
-    Built and maintained the React frontend and FastAPI backend for the
-    Hummingbot dMiner market-making platform. Integrated MetaMask and
-    Tezos wallets, reworked the build pipeline, and used Chrome DevTools
-    memory profiling to fix leaks in long-running pages.
+    Built the React + FastAPI liquidity mining platform for Hummingbot,
+    the open-source market-making framework - used by ~1,000 bot operators
+    facilitating ~$100k in daily trading volume. Fixed memory leaks that
+    exhausted 8 GB machines within hours (~90% less steady-state memory),
+    halved CI build times, and integrated MetaMask and Tezos wallets.
   stack:
     - React
     - FastAPI
@@ -54,9 +71,10 @@
   start: Jul 2020
   end: May 2021
   description: >-
-    Built a supermarket POS from scratch — cashier UI, transaction flows,
-    e-wallet gateway integration, 8-bit LCD customer display, plus an OTA
-    update pipeline so in-store terminals could deploy remotely.
+    Built an Electron point-of-sale system from scratch for a 30-store
+    nationwide supermarket chain - cashier UI, transaction flows, e-wallet
+    payments - plus an over-the-air update pipeline so in-store terminals
+    update automatically without on-site visits.
   stack:
     - Electron
     - Node.js
@@ -69,9 +87,10 @@
   start: Nov 2017
   end: Jun 2020
   description: >-
-    Built and maintained the dashboard for a livestock and freight
-    tracking system. Led data deduplication on Austracker (truck tracking)
-    to improve downstream report quality.
+    Built and operated the tracking dashboard covering 500+ trucks and
+    buses on the Austracker platform. Led deduplication of
+    multi-million-row GPS data, removing ~25% duplicate records that fed
+    customer reports.
   stack:
     - React
     - Node.js

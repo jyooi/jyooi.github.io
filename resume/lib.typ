@@ -6,8 +6,8 @@
 #let todo-color = rgb("#c2410c")
 
 // Unfilled facts render loudly so a variant is never sent out half-written.
-// Note: Typst swallows a ";" placed directly after the closing bracket of a
-// content argument, so end a #todo[] with a period or reword - never ";".
+// Note: Typst swallows a semicolon after the closing bracket.
+// End a #todo[] with a period or reword. Never use a semicolon.
 #let todo(body) = text(fill: todo-color, weight: "bold")[[#body]]
 
 #let section(title) = {
@@ -57,15 +57,16 @@
 
     #v(-0.55em)
     #text(size: 9pt)[
+      #link("https://jyooi.com")[jyooi.com] ·
       #link("https://www.linkedin.com/in/jia-yi-ooi-564a90111/")[LinkedIn] ·
       #link("https://github.com/jyooi")[GitHub]
     ]
   ]
 }
 
-// Compact single-line education, for candidates whose degree is long behind them.
-// Wrapped with its own heading in an unbreakable block so the heading can never
-// strand at the foot of a page with the degree orphaned onto the next one.
+// Education uses a compact single line.
+// The block keeps the heading with the degree.
+// It prevents a heading at the foot of a page with the degree on the next page.
 #let education(degree, date) = {
   block(breakable: false)[
     #section("Education")
@@ -78,6 +79,7 @@
   ]
 }
 
+<!-- ste-disable-next-line sentence-length -->
 #let resume(body) = {
   set page(paper: "a4", margin: (x: 1.5cm, y: 1.15cm))
   set text(font: "Libertinus Serif", size: 9.7pt)

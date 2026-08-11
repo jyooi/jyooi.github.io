@@ -4,13 +4,17 @@
   start: Apr 2026
   end: Present
   description: >-
-    Built elixir-opentui, an open-source terminal UI framework for Elixir
-    with a high-performance Zig NIF backend - Elm-inspired architecture, a
-    declarative View DSL, and 15+ widgets. Studying for the Certified
-    Kubernetes Administrator (CKA) exam alongside it.
+    Built elixir-opentui. It is an open-source terminal UI framework for Elixir.
+    It uses a Zig NIF backend and provides an Elm-inspired architecture.
+    It includes a declarative View DSL and 15+ widgets.
+
+    Built agent-simple-english, a linter for Simplified Technical English.
+    Built pi-ask-user-question, a pi extension that asks structured user questions in the TUI.
+    I prepare for the Certified Kubernetes Administrator examination.
   stack:
     - Elixir
     - Zig
+    - TypeScript
     - Kubernetes
 
 - company: uchat
@@ -19,13 +23,13 @@
   start: Nov 2024
   end: Apr 2026
   description: >-
-    Shipped the real-time business inbox at business.uchat.social - 500+
-    companies running B2C conversations, 100k+ customer messages a day -
-    across a React + TypeScript frontend and a FastAPI backend on
-    Kubernetes. Built the strongly-typed UI component system the inbox is
-    assembled from, load-tested the chat service to 100k concurrent
-    connections ahead of traffic growth, and shaped feature scope with
-    product and design.
+    Shipped the real-time business inbox at business.uchat.social.
+    More than 500 companies use the inbox for B2C conversations.
+    The inbox handles 100k+ customer messages per day.
+    The system uses a React and TypeScript frontend and a FastAPI backend on Kubernetes.
+    Built a strongly typed UI component system for the inbox.
+    Tested the chat service to 100k concurrent connections before traffic growth.
+    Defined feature scope with product and design teams.
   stack:
     - React
     - TypeScript
@@ -41,10 +45,11 @@
   start: Feb 2024
   end: Oct 2024
   description: >-
-    Led 2 frontend engineers to ship the MVP of a corporate hotel booking
-    platform in 4 months, from empty repo to launch. Established the
-    Next.js + TypeScript codebase from scratch, mentored 2 engineers onto
-    it, and drove architecture decisions with product and design.
+    Led 2 frontend engineers and shipped the MVP of a corporate hotel booking platform in 4 months.
+    Started from an empty repository and released the product.
+    Created the Next.js and TypeScript codebase as a new project.
+    Mentored 2 engineers on the codebase.
+    Made architecture decisions with product and design teams.
   stack:
     - Next.js
     - TypeScript
@@ -56,14 +61,16 @@
   start: Jun 2021
   end: Nov 2023
   description: >-
-    Built the React + FastAPI liquidity mining platform for Hummingbot,
-    the open-source market-making framework - used by ~1,000 bot operators
-    facilitating ~$100k in daily trading volume. Built and published
-    @hummingbot/hbui, the Hummingbot design system, with design tokens
-    synced from Figma into a Tailwind + React package used across the
-    organisation's frontends. Fixed memory leaks that exhausted 8 GB
-    machines within hours (~90% less steady-state memory), halved CI build
-    times, and integrated MetaMask and Tezos wallets.
+    Built the React and FastAPI liquidity mining platform for Hummingbot.
+    Hummingbot is an open-source market-making framework.
+    About 1,000 bot operators use the platform.
+    They help with about $100k in daily trading volume.
+    Built and published @hummingbot/hbui. It is the Hummingbot design system.
+    The system syncs design tokens from Figma into a Tailwind and React package.
+    Teams across the organization use the package for frontends.
+    Fixed memory leaks that exhausted 8 GB machines within hours.
+    The fix reduced steady-state memory by about 90 percent.
+    Halved CI build times. Integrated MetaMask and Tezos wallets.
   stack:
     - React
     - FastAPI
@@ -78,10 +85,10 @@
   start: Jul 2020
   end: May 2021
   description: >-
-    Built an Electron point-of-sale system from scratch for a 30-store
-    nationwide supermarket chain - cashier UI, transaction flows, e-wallet
-    payments - plus an over-the-air update pipeline so in-store terminals
-    update automatically without on-site visits.
+    Built an Electron point-of-sale system for a 30-store supermarket chain.
+    The system covers cashier UI, transaction flows, and e-wallet payments.
+    Designed an over-the-air update pipeline for in-store terminals.
+    The pipeline updates terminals automatically and removes the need for on-site visits.
   stack:
     - Electron
     - Node.js
@@ -94,10 +101,9 @@
   start: Nov 2017
   end: Jun 2020
   description: >-
-    Built and operated the tracking dashboard covering 500+ trucks and
-    buses on the Austracker platform. Led deduplication of
-    multi-million-row GPS data, removing ~25% duplicate records that fed
-    customer reports.
+    Built and operated the tracking dashboard on the Austracker platform.
+    The dashboard covers 500+ trucks and buses.
+    Led deduplication of multi-million-row GPS data and removed about 25 percent duplicate records from customer reports.
   stack:
     - React
     - Node.js

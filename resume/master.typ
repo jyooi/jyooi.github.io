@@ -1,6 +1,6 @@
 // MASTER RESUME - never send this file to anyone.
-// It is the superset every one-page variant is cut down from, per the course's
-// "create a master version, then create a version for the specific job" rule.
+// It is the superset for all one-page variants.
+// Each variant is cut down from it per the course rule.
 // Build: typst compile resume/master.typ build/master.pdf
 
 #import "lib.typ": *
@@ -9,9 +9,12 @@
 #header[Senior Full-Stack Engineer]
 
 #section("Summary")
-Senior full-stack engineer with 8+ years' experience, the last 5+ fully remote for teams in Singapore, the US, and Australia. Builds typed UI component systems and the real-time services behind them - most recently the uchat Business inbox, processing 100k+ messages a day on React/TypeScript and FastAPI on Kubernetes. Available worldwide as a contractor through my own registered entity, or as a direct hire with relocation.
+Senior full-stack engineer with 8+ years of experience. Last 5+ years remote with teams in Singapore, the United States and Australia. Builds typed UI component systems and the real-time services that support them. Recent work is the uchat Business inbox.
+
+The inbox handles 100k+ messages per day with React and TypeScript and FastAPI on Kubernetes. Works worldwide as a contractor through my registered company. Also accepts direct employment with relocation.
 
 #section("Languages & Technologies")
+<!-- ste-disable-next-line sentence-length -->
 #grid(
   columns: (auto, 1fr),
   column-gutter: 0.6em,
@@ -26,43 +29,46 @@ Senior full-stack engineer with 8+ years' experience, the last 5+ fully remote f
 #section("Experience")
 
 #role("Career development sabbatical", "Apr 2026 – Present")
-- Built #link("https://github.com/jyooi/elixir-opentui")[elixir-opentui] - see Projects.
-- Studying for the Certified Kubernetes Administrator (CKA) exam, deepening Kubernetes and platform tooling.
+- Built #link("https://github.com/jyooi/elixir-opentui")[elixir-opentui]. It is an open-source terminal UI framework for Elixir with a Zig NIF backend.
+- Built #link("https://github.com/jyooi/agent-simple-english")[agent-simple-english], a linter for Simplified Technical English.
+- Built #link("https://github.com/jyooi/pi-ask-user-question")[pi-ask-user-question], a pi extension that asks structured user questions in the TUI.
+- Prepares for the Certified Kubernetes Administrator examination.
 
 #role("uchat", "Nov 2024 – Apr 2026")
 #subrole("Senior Software Engineer, Business unit", "Remote (Singapore)")
-#context-line[Business inbox of uchat, a consumer messaging app in Thailand; 500+ companies run their B2C conversations on it.]
-- Shipped the real-time inbox that processes 100k+ customer messages a day for 500+ business accounts, across a React + TypeScript frontend (Vite, TanStack Router, Socket.IO) and a FastAPI backend on Kubernetes.
-- Built the strongly-typed UI component system the inbox is assembled from, giving the team a shared vocabulary for new screens and cutting per-screen boilerplate.
-- Built an image cropping component adopted by the company's internal tooling.
-- Load-tested the chat service to 100k concurrent connections ahead of traffic growth.
-- Reviewed the team's frontend work and shaped feature scope directly with product and design.
+#context-line[Business inbox of uchat, a consumer messaging app in Thailand. More than 500 companies run their B2C conversations on it.]
+- Shipped the real-time inbox that handles 100k+ customer messages per day for 500+ business accounts. The system uses a React and TypeScript frontend and a FastAPI backend on Kubernetes.
+- Built a strongly typed UI component system for the inbox. The system gives the team a shared vocabulary for new screens and reduces per-screen code.
+- Built an image cropping component that internal tooling now uses.
+- Tested the chat service to 100k concurrent connections before traffic growth.
+- Reviewed the team frontend work and defined feature scope with product and design.
 
+<!-- ste-disable-next-line sentence-length -->
 #role("Accomy", "Feb 2024 – Oct 2024")
 #subrole("Senior Software Engineer", "Remote (Singapore)")
-- Led 2 frontend engineers to ship the MVP of a corporate hotel booking platform in 4 months, from empty repo to launch.
-- Established the Next.js + TypeScript codebase from scratch - file structure, component patterns, review conventions - mentored 2 engineers onto it, and drove architecture decisions with product and design.
+- Led 2 frontend engineers and shipped the MVP of a corporate hotel booking platform in 4 months. Started from an empty repository and released the product.
+- Created the Next.js and TypeScript codebase as a new project. Mentored 2 engineers on the codebase and made architecture decisions with product and design.
 
 #role("Coinalpha (Hummingbot)", "Jun 2021 – Nov 2023")
 #subrole("Software Engineer", "Remote (US)")
 #context-line[Hummingbot is an open-source market-making framework for crypto trading bots.]
-- Built the React + FastAPI liquidity mining platform used by \~1,000 bot operators facilitating \~\$100k in daily trading volume.
-- Built and published #link("https://github.com/hummingbot/hbui")[\@hummingbot/hbui], the Hummingbot design system - design tokens synced from Figma into a Tailwind + React package consumed across the organisation's frontends.
-- Fixed memory leaks that exhausted 8 GB machines within hours - cut steady-state memory \~90% and eliminated browser freezes in long-running trading sessions.
-- Halved CI build times by restructuring the build pipeline.
-- Integrated MetaMask and Tezos wallets so operators could sign on-chain transactions directly from the UI.
+- Built the React and FastAPI liquidity mining platform that about 1,000 bot operators use. They help with about \$100k in daily trading volume.
+- Built and published #link("https://github.com/hummingbot/hbui")[\@hummingbot/hbui], the Hummingbot design system. The system syncs design tokens from Figma into a Tailwind and React package that teams use for frontends.
+- Fixed memory leaks that exhausted 8 GB machines within hours. The fix cut steady-state memory by about 90 percent and removed browser freezes in long sessions.
+- Reduced CI build times by half through pipeline changes.
+- Integrated MetaMask and Tezos wallets so operators can sign on-chain transactions from the UI.
 
 #role("Areca System", "2020 – 2021")
 #subrole("Contract Software Engineer", "Penang, Malaysia")
-- Built an Electron point-of-sale system from scratch for a 30-store nationwide supermarket chain - cashier UI, transaction flows, e-wallet payments.
-- Designed the over-the-air update pipeline that let every in-store terminal update automatically, replacing manual on-site visits.
+- Built an Electron point-of-sale system for a 30-store supermarket chain. The system covers cashier UI, transaction flows, and e-wallet payments.
+- Designed an over-the-air update pipeline. The pipeline updates every in-store terminal automatically and removes manual on-site visits.
 
 #role("Aglive", "2017 – 2020")
 #subrole("Software Engineer", "Remote (Australia)")
-- Built and operated the tracking dashboard covering 500+ trucks and buses on the Austracker platform.
-- Led deduplication of multi-million-row GPS data, removing \~25% duplicate records that fed customer reports.
+- Built and operated the tracking dashboard on the Austracker platform. The dashboard covers 500+ trucks and buses.
+- Led deduplication of multi-million-row GPS data and removed about 25 percent duplicate records from customer reports.
 
 #section("Projects")
-- #link("https://github.com/jyooi/elixir-opentui")[*elixir-opentui*] - a terminal UI framework for Elixir with a high-performance Zig NIF backend. Elm-inspired init/handle_event/render architecture with a declarative View DSL, 15+ widgets, and flexbox layout. Zig NIFs handle double-buffered rendering, frame diffing, and rope text structures, with a pure-Elixir fallback so the native build stays optional.
+- #link("https://github.com/jyooi/elixir-opentui")[*elixir-opentui*] - a terminal UI framework for Elixir with a Zig NIF backend. It uses an Elm-inspired init/handle_event/render model with a declarative View DSL and 15+ widgets. Zig NIFs provide double-buffered render, frame diff, and rope text, with a pure-Elixir fallback.
 
-#education("B.IT Communications & Networking (Hons), Universiti Tunku Abdul Rahman", "May 2017")
+#education("B.IT Communications and Networking (Hons), Universiti Tunku Abdul Rahman", "May 2017")

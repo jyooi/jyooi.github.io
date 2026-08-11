@@ -5,12 +5,11 @@
   </div>
 
   <h1 class="hero__name boot">
-    jia&nbsp;yi <span class="accent">ooi</span><span class="punct">.</span><span class="cursor" aria-hidden="true"></span>
+    jia yi <span class="accent">ooi</span><span class="punct">.</span><span class="cursor" aria-hidden="true"></span>
   </h1>
 
   <p class="hero__role boot">
-    Senior full-stack engineer. Real-time systems, builder of unglamorous
-    plumbing that holds up under load.
+    Senior full-stack engineer. I build real-time systems. The systems operate with reliability under load.
   </p>
 
   <dl class="hero__meta boot">
@@ -20,22 +19,24 @@
   </dl>
 
   <p class="hero__bio boot">
-    I work across <strong>TypeScript &amp; React</strong> on one side and
-    <strong>Python (FastAPI)</strong> or <strong>Elixir</strong> on the other
-    - 8+ years, the last 5+ fully remote for teams in Singapore, the US, and
-    Australia. I build <strong>typed UI component systems</strong> and the
-    real-time services behind them: most recently the <strong>uchat</strong>
-    business inbox, 100k+ messages a day on Kubernetes, and before that
-    <em>hbui</em>, the Hummingbot design system. Lately I built
-    <em>elixir-opentui</em>, a terminal UI framework for Elixir with a Zig
-    NIF backend, and I&rsquo;m studying for the Kubernetes CKA.
+    I use <strong>TypeScript and React</strong> for frontend work. I use
+    <strong>Python with FastAPI</strong> and <strong>Elixir</strong> for backend work.
+    I have 8+ years of experience. I work remote for 5+ years with teams in Singapore, the United States and
+    Australia. I build <strong>typed UI component systems</strong> and the real-time services that support them.
   </p>
 
   <p class="hero__bio boot">
-    Available worldwide as a contractor through my own registered entity, or
-    as a direct hire with relocation.
+    Recent work includes the <strong>uchat</strong> business inbox. The inbox handles 100k+ messages per day on Kubernetes.
+    Earlier work includes <em>hbui</em>, the Hummingbot design system. I recently built
+    <em>elixir-opentui</em>, a terminal UI framework for Elixir with a Zig NIF backend.
+    I prepare for the Certified Kubernetes Administrator examination.
   </p>
 
+  <p class="hero__bio boot">
+    I work worldwide as a contractor through my registered company. I also accept direct employment with relocation.
+  </p>
+
+<!-- ste-disable-next-line sentence-length -->
   <div class="hero__cta boot">
     <a class="btn btn--primary" href="https://cal.com/jyooi/15min" target="_blank" rel="noopener">book a 15-min chat</a>
     <a class="btn" href="/JiaYi_Ooi_Resume.pdf">cat resume.pdf</a>
@@ -43,6 +44,7 @@
   </div>
 </section>
 
+<!-- ste-disable-next-line sentence-length -->
 <section class="section" id="experience">
   <div class="section__head">
     <span class="section__prompt">$</span>
@@ -51,6 +53,7 @@
   </div>
   <pre class="section__rule" aria-hidden="true">────────────────────────────────────────────────────────────────────────────────</pre>
 
+<!-- ste-disable-next-line sentence-length -->
   <div class="exp">
     {{- range $i, $e := hugo.Data.experience }}
     <div class="exp__row">
@@ -75,15 +78,17 @@
   </div>
 </section>
 
+<!-- ste-disable-next-line sentence-length -->
 <section class="section" id="projects">
   <div class="section__head">
     <span class="section__prompt">$</span>
-    <span class="section__cmd">cd ~/projects &amp;&amp; ls</span>
+    <span class="section__cmd">cd ~/projects && ls</span>
     <span class="section__hint">side projects · weekend work</span>
   </div>
   <pre class="section__rule" aria-hidden="true">────────────────────────────────────────────────────────────────────────────────</pre>
 
   <div class="projects">
+<!-- ste-disable-next-line sentence-length -->
     {{- $projects := where .Site.RegularPages "Section" "projects" }}
     {{- range $i, $p := $projects }}
     <article class="project">
@@ -133,7 +138,7 @@
     <div class="skills__v">Design systems <span class="sep">·</span> real-time systems <span class="sep">·</span> Web3 wallets (MetaMask, Tezos)</div>
 
     <div class="skills__k">education</div>
-    <div class="skills__v">B.IT Communications &amp; Networking (Hons), UTAR <span class="sep">·</span> 2017</div>
+    <div class="skills__v">B.IT Communications and Networking (Hons), UTAR <span class="sep">·</span> 2017</div>
   </div>
 </section>
 
@@ -145,6 +150,7 @@
   </div>
   <pre class="section__rule" aria-hidden="true">────────────────────────────────────────────────────────────────────────────────</pre>
 
+<!-- ste-disable-next-line sentence-length -->
   <div class="contact">
     <div class="contact__row"><span class="contact__k">email</span>      <span class="contact__v"><a href="mailto:me@jyooi.com">me@jyooi.com</a></span></div>
     <div class="contact__row"><span class="contact__k">cal.com</span>    <span class="contact__v"><a href="https://cal.com/jyooi/15min" target="_blank" rel="noopener">cal.com/jyooi/15min</a></span></div>

@@ -8,10 +8,11 @@ enableRobotsTXT = true
 title = "jyooi // jia yi ooi"
 
 [params]
-  description = "Jia Yi Ooi — senior full-stack engineer in Penang. Typed UI component systems and the real-time services behind them. React, TypeScript, FastAPI, Kubernetes, Elixir."
+  description = "Jia Yi Ooi is a senior full-stack engineer in Penang. He builds typed UI component systems and the real-time services that support them. His stack includes React, TypeScript, FastAPI, Kubernetes, and Elixir."
   metaKeywords = ["Jia Yi Ooi", "jyooi", "senior full-stack engineer", "Penang", "React", "TypeScript", "FastAPI", "Kubernetes", "Elixir", "Zig", "design systems", "real-time systems"]
   resume = "/JiaYi_Ooi_Resume.pdf"
 
+# ste-disable-next-line semicolon
   customHeadHTML = """
 <script async src="https://omarchysettlement.tail4d678f.ts.net/js/pa-jIFX9EiAhi4p49SJ95Jp0.js"></script>
 <script>

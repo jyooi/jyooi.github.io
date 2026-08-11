@@ -9,7 +9,7 @@
 #header[Software Engineer - Platform & Reliability]
 
 #section("Summary")
-Engineer with 8+ years building and operating production services, the last 5+ fully remote for teams in Singapore, the US, and Australia. Ran the real-time messaging service behind a 100k-messages-a-day inbox on Kubernetes, load-tested it to 100k concurrent connections, and have a track record of fixing what production actually breaks on - memory exhaustion, slow pipelines, manual deploys. Currently studying for the Certified Kubernetes Administrator exam. Available worldwide as a contractor through my own registered entity, or as a direct hire with relocation.
+Engineer with 8+ years building and operating production services, the last 5+ fully remote for teams in Singapore, the US, and Australia. Ran the real-time messaging service behind a 100k-messages-a-day platform on Kubernetes, load-tested it to 100k concurrent connections, and have a track record of fixing what production actually breaks on - memory exhaustion, slow pipelines, manual deploys. Currently studying for the Certified Kubernetes Administrator exam. Available worldwide as a contractor through my own registered entity, or as a direct hire with relocation.
 
 #section("Languages & Technologies")
 #grid(
@@ -26,12 +26,14 @@ Engineer with 8+ years building and operating production services, the last 5+ f
 #section("Experience")
 
 #role("Career development sabbatical", "Apr 2026 – Present")
-- Studying for the Certified Kubernetes Administrator (CKA) exam, deepening Kubernetes and platform tooling.
+- Prepare for the Certified Kubernetes Administrator (CKA) exam and deepen Kubernetes and platform tooling.
 - Built #link("https://github.com/jyooi/elixir-opentui")[elixir-opentui], a terminal UI framework for Elixir with a Zig NIF backend - systems-level work on rendering, double buffering, and native interop.
+- Built #link("https://github.com/jyooi/agent-simple-english")[agent-simple-english], a deterministic ASD-STE100 linter with Engine, CLI, and adapters for pi and Claude Code.
+- Built #link("https://github.com/jyooi/pi-ask-user-question")[pi-ask-user-question], a pi TUI extension that lets agents ask structured multi-question decisions.
 
-#role("uchat", "Nov 2024 – Apr 2026")
+#role("Uchat", "Nov 2024 – Apr 2026")
 #subrole("Senior Software Engineer, Business unit", "Remote (Singapore)")
-#context-line[Business inbox of uchat, a consumer messaging app in Thailand; 500+ companies run their B2C conversations on it.]
+#context-line[Business platform of Uchat, a consumer messaging app in Thailand. 500+ companies run their B2C conversations on it.]
 - Load-tested the chat service to 100k concurrent connections ahead of traffic growth, establishing the capacity envelope before customer traffic reached it.
 - Ran the real-time messaging service on Kubernetes, processing 100k+ customer messages a day for 500+ business accounts on a FastAPI backend.
 - Built the frontend the service is consumed through (React, TypeScript, Socket.IO) and reviewed the team's work on it.

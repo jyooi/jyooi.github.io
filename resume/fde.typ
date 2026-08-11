@@ -26,12 +26,14 @@ Engineer with 8+ years shipping products end to end, the last 5+ fully remote ac
 
 #role("Career development sabbatical", "Apr 2026 – Present")
 - Built #link("https://github.com/jyooi/elixir-opentui")[elixir-opentui], a terminal UI framework for Elixir with a Zig NIF backend - picked up two unfamiliar languages to build it.
-- Studying for the Certified Kubernetes Administrator (CKA) exam.
+- Built #link("https://github.com/jyooi/agent-simple-english")[agent-simple-english], a deterministic ASD-STE100 linter with Engine, CLI, and adapters for pi and Claude Code.
+- Built #link("https://github.com/jyooi/pi-ask-user-question")[pi-ask-user-question], a pi TUI extension that lets agents ask structured multi-question decisions.
+- Prepare for the Certified Kubernetes Administrator (CKA) exam.
 
-#role("uchat", "Nov 2024 – Apr 2026")
+#role("Uchat", "Nov 2024 – Apr 2026")
 #subrole("Senior Software Engineer, Business unit", "Remote (Singapore)")
-#context-line[Business inbox of uchat, a consumer messaging app in Thailand; 500+ companies run their B2C conversations on it.]
-- Shipped the real-time inbox that processes 100k+ customer messages a day for the 500+ businesses running their customer conversations on it.
+#context-line[Business platform of Uchat, a consumer messaging app in Thailand. 500+ companies run their B2C conversations on it.]
+- Shipped the real-time platform that processes 100k+ customer messages a day for the 500+ businesses running their customer conversations on it.
 - Shaped feature scope directly with product and design, and reviewed the team's frontend work.
 - Built the strongly-typed component system the product is assembled from, so new screens ship without rebuilding the basics.
 

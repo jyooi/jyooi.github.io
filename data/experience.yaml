@@ -6,23 +6,27 @@
   description: >-
     Built elixir-opentui, an open-source terminal UI framework for Elixir
     with a high-performance Zig NIF backend - Elm-inspired architecture, a
-    declarative View DSL, and 15+ widgets. Studying for the Certified
-    Kubernetes Administrator (CKA) exam alongside it.
+    declarative View DSL, and 15+ widgets. Built agent-simple-english, a
+    deterministic ASD-STE100 linter with one Engine, one CLI, and adapters
+    for pi and Claude Code. Built pi-ask-user-question, a pi TUI extension
+    that lets agents ask structured 1-4 question decisions with multi-select
+    and Other support. Prepare for the Certified Kubernetes Administrator
+    (CKA) exam alongside it.
   stack:
     - Elixir
     - Zig
     - Kubernetes
 
-- company: uchat
+- company: Uchat
   role: Senior Software Engineer - Business unit
   location: Remote, Singapore
   start: Nov 2024
   end: Apr 2026
   description: >-
-    Shipped the real-time business inbox at business.uchat.social - 500+
+    Shipped the real-time business platform at business.uchat.social - 500+
     companies running B2C conversations, 100k+ customer messages a day -
     across a React + TypeScript frontend and a FastAPI backend on
-    Kubernetes. Built the strongly-typed UI component system the inbox is
+    Kubernetes. Built the strongly-typed UI component system the platform is
     assembled from, load-tested the chat service to 100k concurrent
     connections ahead of traffic growth, and shaped feature scope with
     product and design.

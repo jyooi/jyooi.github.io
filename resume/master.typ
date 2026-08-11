@@ -9,7 +9,7 @@
 #header[Senior Full-Stack Engineer]
 
 #section("Summary")
-Senior full-stack engineer with 8+ years' experience, the last 5+ fully remote for teams in Singapore, the US, and Australia. Builds typed UI component systems and the real-time services behind them - most recently the uchat Business inbox, processing 100k+ messages a day on React/TypeScript and FastAPI on Kubernetes. Available worldwide as a contractor through my own registered entity, or as a direct hire with relocation.
+Senior full-stack engineer with 8+ years' experience, the last 5+ fully remote for teams in Singapore, the US, and Australia. Builds typed UI component systems and the real-time services behind them - most recently the Uchat Business platform, processing 100k+ messages a day on React/TypeScript and FastAPI on Kubernetes. Available worldwide as a contractor through my own registered entity, or as a direct hire with relocation.
 
 #section("Languages & Technologies")
 #grid(
@@ -27,13 +27,15 @@ Senior full-stack engineer with 8+ years' experience, the last 5+ fully remote f
 
 #role("Career development sabbatical", "Apr 2026 – Present")
 - Built #link("https://github.com/jyooi/elixir-opentui")[elixir-opentui] - see Projects.
-- Studying for the Certified Kubernetes Administrator (CKA) exam, deepening Kubernetes and platform tooling.
+- Built #link("https://github.com/jyooi/agent-simple-english")[agent-simple-english], a deterministic ASD-STE100 linter with Engine, CLI, and adapters for pi and Claude Code.
+- Built #link("https://github.com/jyooi/pi-ask-user-question")[pi-ask-user-question], a pi TUI extension that lets agents ask structured multi-question decisions.
+- Prepare for the Certified Kubernetes Administrator (CKA) exam and deepen Kubernetes and platform tooling.
 
-#role("uchat", "Nov 2024 – Apr 2026")
+#role("Uchat", "Nov 2024 – Apr 2026")
 #subrole("Senior Software Engineer, Business unit", "Remote (Singapore)")
-#context-line[Business inbox of uchat, a consumer messaging app in Thailand; 500+ companies run their B2C conversations on it.]
-- Shipped the real-time inbox that processes 100k+ customer messages a day for 500+ business accounts, across a React + TypeScript frontend (Vite, TanStack Router, Socket.IO) and a FastAPI backend on Kubernetes.
-- Built the strongly-typed UI component system the inbox is assembled from, giving the team a shared vocabulary for new screens and cutting per-screen boilerplate.
+#context-line[Business platform of Uchat, a consumer messaging app in Thailand. 500+ companies run their B2C conversations on it.]
+- Shipped the real-time platform that processes 100k+ customer messages a day for 500+ business accounts, across a React + TypeScript frontend (Vite, TanStack Router, Socket.IO) and a FastAPI backend on Kubernetes.
+- Built the strongly-typed UI component system the platform is assembled from, giving the team a shared vocabulary for new screens and cutting per-screen boilerplate.
 - Built an image cropping component adopted by the company's internal tooling.
 - Load-tested the chat service to 100k concurrent connections ahead of traffic growth.
 - Reviewed the team's frontend work and shaped feature scope directly with product and design.
@@ -64,5 +66,7 @@ Senior full-stack engineer with 8+ years' experience, the last 5+ fully remote f
 
 #section("Projects")
 - #link("https://github.com/jyooi/elixir-opentui")[*elixir-opentui*] - a terminal UI framework for Elixir with a high-performance Zig NIF backend. Elm-inspired init/handle_event/render architecture with a declarative View DSL, 15+ widgets, and flexbox layout. Zig NIFs handle double-buffered rendering, frame diffing, and rope text structures, with a pure-Elixir fallback so the native build stays optional.
+- #link("https://github.com/jyooi/agent-simple-english")[*agent-simple-english*] - a deterministic ASD-STE100 linter. One Engine, one CLI, and adapters for pi and Claude Code. The Engine scans Markdown and code comments and applies nine rules with dictionary support.
+- #link("https://github.com/jyooi/pi-ask-user-question")[*pi-ask-user-question*] - a pi TUI extension for structured agent questions. One Ask holds one to four Questions with multi-select and Other support. It runs TUI-only with terminal safety and transcript rendering.
 
 #education("B.IT Communications & Networking (Hons), Universiti Tunku Abdul Rahman", "May 2017")

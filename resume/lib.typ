@@ -11,52 +11,53 @@
 #let todo(body) = text(fill: todo-color, weight: "bold")[[#body]]
 
 #let section(title) = {
-  v(0.6em)
+  v(0.45em)
   text(fill: accent, weight: "bold", size: 9pt, tracking: 0.08em, upper(title))
-  v(-0.8em)
+  v(-0.70em)
   line(length: 100%, stroke: 1pt + accent)
-  v(-0.35em)
+  v(-0.28em)
 }
 
 #let role(company, dates) = {
-  v(0.32em)
+  v(0.28em)
   grid(
     columns: (1fr, auto),
-    text(weight: "bold", size: 10.8pt, company),
+    text(weight: "bold", size: 10.2pt, company),
     text(fill: luma(70), dates),
   )
 }
 
 #let subrole(title, location) = {
-  v(-0.55em)
+  v(-0.48em)
   grid(
     columns: (1fr, auto),
-    text(style: "italic", size: 9.8pt, title),
-    text(style: "italic", size: 9.8pt, fill: luma(70), location),
+    text(style: "italic", size: 9.2pt, title),
+    text(style: "italic", size: 9.2pt, fill: luma(70), location),
   )
-  v(-0.3em)
+  v(-0.24em)
 }
 
 // One-line company context, for employers a reviewer will not recognise.
 #let context-line(body) = {
-  v(-0.05em)
-  text(size: 9.5pt, style: "italic", fill: luma(60), body)
+  v(-0.04em)
+  text(size: 9.0pt, style: "italic", fill: luma(60), body)
 }
 
 #let header(tagline) = {
   align(center)[
-    #text(size: 19pt, weight: "bold")[Jia Yi Ooi]
+    #text(size: 18pt, weight: "bold")[Jia Yi Ooi]
 
-    #v(-0.5em)
-    #text(size: 10.5pt, fill: luma(60))[#tagline]
+    #v(-0.42em)
+    #text(size: 10pt, fill: luma(60))[#tagline]
 
-    #v(-0.35em)
-    #text(size: 9pt)[
+    #v(-0.28em)
+    #text(size: 8.6pt)[
       Penang, Malaysia (UTC+8) · Remote worldwide or relocation · #link("mailto:me@jyooi.com")[me\@jyooi.com]
     ]
 
-    #v(-0.55em)
-    #text(size: 9pt)[
+    #v(-0.45em)
+    #text(size: 8.6pt)[
+      #link("https://jyooi.com")[jyooi.com] ·
       #link("https://www.linkedin.com/in/jia-yi-ooi-564a90111/")[LinkedIn] ·
       #link("https://github.com/jyooi")[GitHub]
     ]
@@ -79,10 +80,10 @@
 }
 
 #let resume(body) = {
-  set page(paper: "a4", margin: (x: 1.5cm, y: 1.15cm))
-  set text(font: "Libertinus Serif", size: 9.7pt)
-  set par(leading: 0.47em)
+  set page(paper: "a4", margin: (x: 1.4cm, y: 0.85cm))
+  set text(font: "Libertinus Serif", size: 9.3pt)
+  set par(leading: 0.40em)
   show link: set text(fill: accent)
-  set list(indent: 0.6em, body-indent: 0.45em, spacing: 0.46em)
+  set list(indent: 0.6em, body-indent: 0.45em, spacing: 0.34em)
   body
 }

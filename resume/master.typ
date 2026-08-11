@@ -18,7 +18,7 @@ Senior full-stack engineer with 8+ years' experience, the last 5+ fully remote f
   row-gutter: 0.38em,
   [*Languages:*], [TypeScript, Python, Elixir, SQL],
   [*Frontend:*], [React, Next.js, Vite, TanStack Router, React Query, Socket.IO, Electron, Playwright, Vitest],
-  [*Backend:*], [FastAPI, PostgreSQL, REST API design, load testing],
+  [*Backend:*], [Node.js, FastAPI, PostgreSQL, REST API design, load testing],
   [*Infrastructure:*], [Kubernetes, Docker, Helm, Terraform, Linux, Nginx, GitHub Actions, Prometheus, Grafana, Git],
   [*Other:*], [Design systems, real-time systems, Web3 wallets (MetaMask, Tezos)],
 )

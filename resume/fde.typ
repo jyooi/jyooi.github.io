@@ -17,7 +17,7 @@ Engineer with 8+ years shipping products end to end, the last 5+ fully remote ac
   column-gutter: 0.6em,
   row-gutter: 0.38em,
   [*Languages:*], [TypeScript, Python, Elixir, SQL],
-  [*Product stack:*], [React, Next.js, FastAPI, PostgreSQL, Electron, Socket.IO],
+  [*Product stack:*], [React, Next.js, Node.js, FastAPI, PostgreSQL, Electron, Socket.IO],
   [*Infrastructure:*], [Kubernetes, Docker, Linux, CI/CD (GitHub Actions), Terraform],
   [*Domains:*], [Real-time messaging, retail point-of-sale, crypto trading, fleet tracking, travel booking],
 )

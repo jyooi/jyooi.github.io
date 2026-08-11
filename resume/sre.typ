@@ -20,7 +20,7 @@ Engineer with 8+ years building and operating production services, the last 5+ f
   [*Observability:*], [Prometheus, Grafana, load testing, memory profiling],
   [*CI/CD:*], [GitHub Actions, Git, build pipeline optimisation, over-the-air release pipelines],
   [*Languages:*], [Python, TypeScript, SQL, Elixir],
-  [*Backend:*], [FastAPI, PostgreSQL, REST API design, real-time systems],
+  [*Backend:*], [Node.js, FastAPI, PostgreSQL, REST API design, real-time systems],
 )
 
 #section("Experience")

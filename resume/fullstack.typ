@@ -48,11 +48,11 @@ Senior full-stack engineer, 8+ years, the last 5+ fully remote for teams in Sing
 - Built and published #link("https://github.com/hummingbot/hbui")[\@hummingbot/hbui], the Hummingbot design system - design tokens synced from Figma into a Tailwind + React package consumed across the organisation's frontends.
 - Fixed memory leaks that exhausted 8 GB machines within hours, cutting steady-state memory \~90%.
 
-#role("Areca System", "2020 – 2021")
+#role("Areca System", "Jul 2020 – May 2021")
 #subrole("Contract Software Engineer", "Penang, Malaysia")
 - Built an Electron point-of-sale system from scratch for a 30-store supermarket chain.
 
-#role("Aglive", "2017 – 2020")
+#role("Aglive", "Nov 2017 – Jun 2020")
 #subrole("Software Engineer", "Remote (Australia)")
 - Built and operated the tracking dashboard covering 500+ trucks and buses on the Austracker platform.
 - Led deduplication of multi-million-row GPS data, removing \~25% duplicate records that fed customer reports.

@@ -54,12 +54,12 @@ Senior full-stack engineer with 8+ years' experience, the last 5+ fully remote f
 - Halved CI build times by restructuring the build pipeline.
 - Integrated MetaMask and Tezos wallets so operators could sign on-chain transactions directly from the UI.
 
-#role("Areca System", "2020 – 2021")
+#role("Areca System", "Jul 2020 – May 2021")
 #subrole("Contract Software Engineer", "Penang, Malaysia")
 - Built an Electron point-of-sale system from scratch for a 30-store nationwide supermarket chain - cashier UI, transaction flows, e-wallet payments.
 - Designed the over-the-air update pipeline that let every in-store terminal update automatically, replacing manual on-site visits.
 
-#role("Aglive", "2017 – 2020")
+#role("Aglive", "Nov 2017 – Jun 2020")
 #subrole("Software Engineer", "Remote (Australia)")
 - Built and operated the tracking dashboard covering 500+ trucks and buses on the Austracker platform.
 - Led deduplication of multi-million-row GPS data, removing \~25% duplicate records that fed customer reports.

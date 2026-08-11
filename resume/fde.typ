@@ -49,12 +49,12 @@ Engineer with 8+ years shipping products end to end, the last 5+ fully remote ac
 - Integrated MetaMask and Tezos wallets so operators could sign on-chain transactions directly from the UI.
 - Fixed memory leaks that exhausted 8 GB machines within hours - cut steady-state memory \~90%.
 
-#role("Areca System", "2020 – 2021")
+#role("Areca System", "Jul 2020 – May 2021")
 #subrole("Contract Software Engineer", "Penang, Malaysia")
 - Built an Electron point-of-sale system from scratch for a 30-store nationwide supermarket chain, working to the constraints of real cashiers and in-store hardware.
 - Designed the over-the-air update pipeline that let every terminal update automatically, replacing manual on-site visits.
 
-#role("Aglive", "2017 – 2020")
+#role("Aglive", "Nov 2017 – Jun 2020")
 #subrole("Software Engineer", "Remote (Australia)")
 - Built and operated the tracking dashboard covering 500+ trucks and buses on the Austracker platform.
 - Led deduplication of multi-million-row GPS data, removing \~25% duplicate records that fed customer reports.

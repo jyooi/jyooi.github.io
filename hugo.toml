@@ -8,8 +8,8 @@ enableRobotsTXT = true
 title = "jyooi // jia yi ooi"
 
 [params]
-  description = "Jia Yi Ooi — senior full-stack engineer in Penang. Typed UI component systems and the real-time services behind them. React, TypeScript, FastAPI, Kubernetes, Elixir."
-  metaKeywords = ["Jia Yi Ooi", "jyooi", "senior full-stack engineer", "Penang", "React", "TypeScript", "FastAPI", "Kubernetes", "Elixir", "Zig", "design systems", "real-time systems"]
+  description = "Jia Yi Ooi - engineer in Penang. Notes on building across the stack, AI infra, and agent tooling. React, TypeScript, FastAPI, Kubernetes, Elixir."
+  metaKeywords = ["Jia Yi Ooi", "jyooi", "engineer", "Penang", "notes", "React", "TypeScript", "FastAPI", "Kubernetes", "Elixir", "Zig", "AI infra", "agents"]
   resume = "/JiaYi_Ooi_Resume.pdf"
 
   customHeadHTML = """
@@ -20,7 +20,20 @@ plausible.init()
 </script>
 """
 
+[taxonomies]
+  tag = "tags"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML"]
+  term = ["HTML"]
+
 [markup]
+  [markup.highlight]
+    noClasses = false
+    lineNos = false
+    guessSyntax = true
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true

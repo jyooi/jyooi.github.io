@@ -1,0 +1,17 @@
+{
+  "name": "jyooi.github.io",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "publish": "bun scripts/publish.ts",
+    "publish:check": "bun scripts/publish.ts --check",
+    "test": "bun test",
+    "typecheck": "bun x tsc --noEmit",
+    "dev": "hugo server -D",
+    "build": "hugo --gc --minify"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5"
+  }
+}

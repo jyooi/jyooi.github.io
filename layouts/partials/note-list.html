@@ -1,0 +1,21 @@
+{{- /* Expects .pages (note pages) and optional .empty text */ -}}
+{{- if .pages }}
+<ol class="notes" reversed>
+  {{- range .pages }}
+  <li class="note-row">
+    <time class="note-row__date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+    <div class="note-row__body">
+      <a class="note-row__title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{- with .Params.tags }}
+      <span class="note-row__tags">
+        {{- range . }}<a class="note-tag" href="{{ (printf "/tags/%s/" (. | urlize)) | relURL }}">#{{ . }}</a>{{ end }}
+      </span>
+      {{- end }}
+      {{- with .Params.summary }}<p class="note-row__summary">{{ . }}</p>{{ end }}
+    </div>
+  </li>
+  {{- end }}
+</ol>
+{{- else }}
+<p class="notes__empty">{{ .empty | default "no notes yet." }}</p>
+{{- end }}

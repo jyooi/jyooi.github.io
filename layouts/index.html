@@ -8,9 +8,10 @@
     jia&nbsp;yi <span class="accent">ooi</span><span class="punct">.</span><span class="cursor" aria-hidden="true"></span>
   </h1>
 
+  {{- /* Intro copy: David rewrites this in his own words before launch. */}}
   <p class="hero__role boot">
-    Senior full-stack engineer. Real-time systems, builder of unglamorous
-    plumbing that holds up under load.
+    Engineer in Penang. I build across the stack, and lately go deep on
+    AI infra and agent tooling.
   </p>
 
   <dl class="hero__meta boot">
@@ -20,138 +21,36 @@
   </dl>
 
   <p class="hero__bio boot">
-    I work across <strong>TypeScript &amp; React</strong> on one side and
-    <strong>Python (FastAPI)</strong> or <strong>Elixir</strong> on the other
-    - 8+ years, the last 5+ fully remote for teams in Singapore, the US, and
-    Australia. I build <strong>typed UI component systems</strong> and the
-    real-time services behind them: most recently the <strong>Uchat</strong>
-    business platform, 100k+ messages a day on Kubernetes, and before that
-    <em>hbui</em>, the Hummingbot design system. Lately I built
-    <em>elixir-opentui</em>, a terminal UI framework for Elixir with a Zig
-    NIF backend, and I&rsquo;m studying for the Kubernetes CKA.
+    This site is where I think in public. Short notes on what I learn,
+    what I believe about building software, and how the week went.
+    The <a href="/about/">about page</a> has the work history.
   </p>
+</section>
 
-  <p class="hero__bio boot">
-    Available worldwide as a contractor through my own registered entity, or
-    as a direct hire with relocation.
-  </p>
+{{- $notes := where .Site.RegularPages "Section" "notes" }}
+<section class="section" id="notes">
+  <div class="section__head">
+    <span class="section__prompt">$</span>
+    <span class="section__cmd">tail -n 5 ~/notes</span>
+    <span class="section__hint"><a href="/notes/">all notes</a> · <a href="/notes/index.xml">rss</a></span>
+  </div>
+  <pre class="section__rule" aria-hidden="true">────────────────────────────────────────────────────────────────────────────────</pre>
+  {{ partial "note-list.html" (dict "pages" ($notes | first 5) "empty" "no notes yet. first one lands soon.") }}
+</section>
 
-  <div class="hero__cta boot">
-    <a class="btn btn--primary" href="https://cal.com/jyooi/15min" target="_blank" rel="noopener">book a 15-min chat</a>
+{{ partial "projects.html" (dict "pages" (where .Site.RegularPages "Section" "projects") "hint" "side projects · weekend work") }}
+
+<section class="section" id="more">
+  <div class="section__head">
+    <span class="section__prompt">$</span>
+    <span class="section__cmd">ls ~/more</span>
+  </div>
+  <pre class="section__rule" aria-hidden="true">────────────────────────────────────────────────────────────────────────────────</pre>
+  <div class="hero__cta">
+    <a class="btn" href="/about/">cat about.md</a>
     <a class="btn" href="/JiaYi_Ooi_Resume.pdf">cat resume.pdf</a>
+    <a class="btn" href="https://cal.com/jyooi/15min" target="_blank" rel="noopener">book a 15-min chat</a>
     <a class="btn" href="mailto:me@jyooi.com">mail me@jyooi.com</a>
-  </div>
-</section>
-
-<section class="section" id="experience">
-  <div class="section__head">
-    <span class="section__prompt">$</span>
-    <span class="section__cmd">ls -la ~/experience</span>
-    <span class="section__hint">6 entries · sorted by recent</span>
-  </div>
-  <pre class="section__rule" aria-hidden="true">────────────────────────────────────────────────────────────────────────────────</pre>
-
-  <div class="exp">
-    {{- range $i, $e := hugo.Data.experience }}
-    <div class="exp__row">
-      <div class="exp__date">
-        {{ $e.start }} <span class="arrow">→</span> {{ $e.end }}
-      </div>
-      <div class="exp__body">
-        <div class="exp__head">
-          <span class="exp__company">{{ $e.company }}</span>
-          <span class="exp__role">{{ $e.role }}</span>
-          <span class="exp__loc">{{ $e.location }}</span>
-        </div>
-        <p class="exp__desc">{{ $e.description }}</p>
-        {{- with $e.stack }}
-        <div class="exp__stack">
-          {{- range . }}<span class="tag">{{ . }}</span>{{ end }}
-        </div>
-        {{- end }}
-      </div>
-    </div>
-    {{- end }}
-  </div>
-</section>
-
-<section class="section" id="projects">
-  <div class="section__head">
-    <span class="section__prompt">$</span>
-    <span class="section__cmd">cd ~/projects &amp;&amp; ls</span>
-    <span class="section__hint">side projects · weekend work</span>
-  </div>
-  <pre class="section__rule" aria-hidden="true">────────────────────────────────────────────────────────────────────────────────</pre>
-
-  <div class="projects">
-    {{- $projects := where .Site.RegularPages "Section" "projects" }}
-    {{- range $i, $p := $projects }}
-    <article class="project">
-      <header class="project__head">
-        <span class="project__no">{{ printf "%02d" (add $i 1) }}</span>
-        <h3 class="project__title">
-          <a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a>
-        </h3>
-        {{- if $p.Params.active }}
-        <span class="project__status"><span class="pulse"></span>active</span>
-        {{- end }}
-      </header>
-      {{- with $p.Params.summary }}
-      <p class="project__desc">{{ . }}</p>
-      {{- end }}
-      <div class="project__links">
-        <a href="{{ $p.RelPermalink }}">case</a>
-        {{- with $p.Params.repo }}<a href="{{ . }}" target="_blank" rel="noopener">repo</a>{{ end }}
-        {{- with $p.Params.demo }}<a href="{{ . }}" target="_blank" rel="noopener">demo</a>{{ end }}
-      </div>
-    </article>
-    {{- end }}
-  </div>
-</section>
-
-<section class="section" id="skills">
-  <div class="section__head">
-    <span class="section__prompt">$</span>
-    <span class="section__cmd">cat skills.txt</span>
-  </div>
-  <pre class="section__rule" aria-hidden="true">────────────────────────────────────────────────────────────────────────────────</pre>
-
-  <div class="skills">
-    <div class="skills__k">languages</div>
-    <div class="skills__v">TypeScript <span class="sep">·</span> Python <span class="sep">·</span> Elixir <span class="sep">·</span> SQL</div>
-
-    <div class="skills__k">frontend</div>
-    <div class="skills__v">React <span class="sep">·</span> Next.js <span class="sep">·</span> Vite <span class="sep">·</span> TanStack Router <span class="sep">·</span> React Query <span class="sep">·</span> Socket.IO <span class="sep">·</span> Electron <span class="sep">·</span> Playwright <span class="sep">·</span> Vitest</div>
-
-    <div class="skills__k">backend</div>
-    <div class="skills__v">FastAPI <span class="sep">·</span> PostgreSQL <span class="sep">·</span> REST API design <span class="sep">·</span> load testing</div>
-
-    <div class="skills__k">infrastructure</div>
-    <div class="skills__v">Kubernetes <span class="sep">·</span> Docker <span class="sep">·</span> Helm <span class="sep">·</span> Terraform <span class="sep">·</span> Linux <span class="sep">·</span> Nginx <span class="sep">·</span> GitHub Actions <span class="sep">·</span> Prometheus <span class="sep">·</span> Grafana <span class="sep">·</span> Git</div>
-
-    <div class="skills__k">other</div>
-    <div class="skills__v">Design systems <span class="sep">·</span> real-time systems <span class="sep">·</span> Web3 wallets (MetaMask, Tezos)</div>
-
-    <div class="skills__k">education</div>
-    <div class="skills__v">B.IT Communications &amp; Networking (Hons), UTAR <span class="sep">·</span> 2017</div>
-  </div>
-</section>
-
-<section class="section" id="contact">
-  <div class="section__head">
-    <span class="section__prompt">$</span>
-    <span class="section__cmd">finger jyooi</span>
-    <span class="section__hint">grab whichever channel suits you</span>
-  </div>
-  <pre class="section__rule" aria-hidden="true">────────────────────────────────────────────────────────────────────────────────</pre>
-
-  <div class="contact">
-    <div class="contact__row"><span class="contact__k">email</span>      <span class="contact__v"><a href="mailto:me@jyooi.com">me@jyooi.com</a></span></div>
-    <div class="contact__row"><span class="contact__k">cal.com</span>    <span class="contact__v"><a href="https://cal.com/jyooi/15min" target="_blank" rel="noopener">cal.com/jyooi/15min</a></span></div>
-    <div class="contact__row"><span class="contact__k">github</span>     <span class="contact__v"><a href="https://github.com/jyooi" target="_blank" rel="noopener">github.com/jyooi</a></span></div>
-    <div class="contact__row"><span class="contact__k">linkedin</span>   <span class="contact__v"><a href="https://www.linkedin.com/in/jia-yi-ooi-564a90111/" target="_blank" rel="noopener">in/jia-yi-ooi</a></span></div>
-    <div class="contact__row"><span class="contact__k">twitter/x</span>  <span class="contact__v"><a href="https://twitter.com/OoiJiaYi" target="_blank" rel="noopener">@OoiJiaYi</a></span></div>
-    <div class="contact__row"><span class="contact__k">resume</span>     <span class="contact__v"><a href="/JiaYi_Ooi_Resume.pdf">JiaYi_Ooi_Resume.pdf</a></span></div>
   </div>
 </section>
 {{ end }}

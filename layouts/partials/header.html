@@ -13,8 +13,8 @@
 
 <nav class="navbar" aria-label="Primary">
   <a href="/" class="nav-link{{ if .IsHome }} is-active{{ end }}"><span class="nav-link__key">[h]</span>home</a>
-  <a href="/#experience" class="nav-link"><span class="nav-link__key">[e]</span>experience</a>
-  <a href="/#projects" class="nav-link"><span class="nav-link__key">[p]</span>projects</a>
-  <a href="/#contact" class="nav-link"><span class="nav-link__key">[c]</span>contact</a>
+  <a href="/notes/" class="nav-link{{ if eq .Section "notes" }} is-active{{ end }}"><span class="nav-link__key">[n]</span>notes</a>
+  <a href="/projects/" class="nav-link{{ if eq .Section "projects" }} is-active{{ end }}"><span class="nav-link__key">[p]</span>projects</a>
+  <a href="/about/" class="nav-link{{ if eq .Layout "about" }} is-active{{ end }}"><span class="nav-link__key">[a]</span>about</a>
   <a href="https://github.com/jyooi" class="nav-link nav-link--external" rel="noopener" target="_blank"><span class="nav-link__key">[g]</span>github<span class="nav-link__ext">↗</span></a>
 </nav>

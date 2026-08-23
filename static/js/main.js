@@ -1,7 +1,7 @@
 /* ============================================================
    jyooi.com — terminal theme runtime
    1) live Penang clock (UTC+8)
-   2) keyboard shortcuts: h/e/p/c/g
+   2) keyboard shortcuts: h/n/p/a/g
    3) gentle smooth-scroll for anchor links
    ============================================================ */
 
@@ -26,9 +26,9 @@
   /* ---------------- keyboard shortcuts ---------------- */
   const targets = {
     h: () => location.href = '/',
-    e: () => scrollTo('#experience'),
-    p: () => scrollTo('#projects'),
-    c: () => scrollTo('#contact'),
+    n: () => location.href = '/notes/',
+    p: () => location.href = '/projects/',
+    a: () => location.href = '/about/',
     g: () => window.open('https://github.com/jyooi', '_blank', 'noopener'),
   };
 

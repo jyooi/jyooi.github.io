@@ -1,0 +1,24 @@
+{{ define "main" }}
+<article class="single note">
+  <a class="single__back" href="/notes/">all notes</a>
+  <h1 class="single__title">{{ .Title }}</h1>
+  <p class="single__meta">
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+    {{- with .Params.tags }} <span class="dim">·</span>
+      {{- range . }} <a class="note-tag" href="{{ (printf "/tags/%s/" (. | urlize)) | relURL }}">#{{ . }}</a>{{ end }}
+    {{- end }}
+    <span class="dim">·</span> {{ .ReadingTime }} min read
+  </p>
+  <div class="prose">
+    {{ .Content }}
+  </div>
+
+  {{- $prev := .NextInSection }}{{ $next := .PrevInSection }}
+  {{- if or $prev $next }}
+  <nav class="note-nav" aria-label="Adjacent notes">
+    {{- with $prev }}<a class="note-nav__link note-nav__link--prev" href="{{ .RelPermalink }}"><span class="dim">newer</span> ← {{ .Title }}</a>{{ end }}
+    {{- with $next }}<a class="note-nav__link note-nav__link--next" href="{{ .RelPermalink }}">{{ .Title }} → <span class="dim">older</span></a>{{ end }}
+  </nav>
+  {{- end }}
+</article>
+{{ end }}

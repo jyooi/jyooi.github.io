@@ -1,2 +1,4 @@
 .lavish/
 resume/build/
+node_modules/
+public/

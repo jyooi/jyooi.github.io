@@ -1,0 +1,11 @@
+{{ define "main" }}
+<article class="single about">
+  <a class="single__back" href="/">home</a>
+  <h1 class="single__title">{{ .Title }}</h1>
+  {{- with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+</article>
+
+{{ partial "experience.html" . }}
+{{ partial "skills.html" . }}
+{{ partial "contact.html" . }}
+{{ end }}

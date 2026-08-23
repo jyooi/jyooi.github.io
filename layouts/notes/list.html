@@ -1,0 +1,22 @@
+{{ define "main" }}
+<section class="section" id="notes">
+  <div class="section__head">
+    <span class="section__prompt">$</span>
+    <span class="section__cmd">ls -lt ~/notes</span>
+    <span class="section__hint">{{ len .RegularPages }} notes · <a href="/notes/index.xml">rss</a></span>
+  </div>
+  <pre class="section__rule" aria-hidden="true">────────────────────────────────────────────────────────────────────────────────</pre>
+
+  {{- $tags := .Site.Taxonomies.tags }}
+  {{- if $tags }}
+  <p class="notes__filter">
+    <span class="dim">filter</span>
+    {{- range $name, $pages := $tags }}
+    <a class="note-tag" href="{{ $pages.Page.RelPermalink }}">#{{ $name }}<span class="note-tag__count">{{ len $pages }}</span></a>
+    {{- end }}
+  </p>
+  {{- end }}
+
+  {{ partial "note-list.html" (dict "pages" .RegularPages "empty" "no notes yet.") }}
+</section>
+{{ end }}

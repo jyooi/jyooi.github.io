@@ -1,0 +1,3 @@
+{{ define "main" }}
+{{ partial "projects.html" (dict "pages" .RegularPages "hint" (.Content | plainify | default "side projects · weekend work")) }}
+{{ end }}

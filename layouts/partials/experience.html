@@ -1,0 +1,31 @@
+<section class="section" id="experience">
+  <div class="section__head">
+    <span class="section__prompt">$</span>
+    <span class="section__cmd">ls -la ~/experience</span>
+    <span class="section__hint">{{ len hugo.Data.experience }} entries · sorted by recent</span>
+  </div>
+  <pre class="section__rule" aria-hidden="true">────────────────────────────────────────────────────────────────────────────────</pre>
+
+  <div class="exp">
+    {{- range $i, $e := hugo.Data.experience }}
+    <div class="exp__row">
+      <div class="exp__date">
+        {{ $e.start }} <span class="arrow">→</span> {{ $e.end }}
+      </div>
+      <div class="exp__body">
+        <div class="exp__head">
+          <span class="exp__company">{{ $e.company }}</span>
+          <span class="exp__role">{{ $e.role }}</span>
+          <span class="exp__loc">{{ $e.location }}</span>
+        </div>
+        <p class="exp__desc">{{ $e.description }}</p>
+        {{- with $e.stack }}
+        <div class="exp__stack">
+          {{- range . }}<span class="tag">{{ . }}</span>{{ end }}
+        </div>
+        {{- end }}
+      </div>
+    </div>
+    {{- end }}
+  </div>
+</section>

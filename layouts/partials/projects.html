@@ -1,14 +1,14 @@
-{{ define "main" }}
-<article class="single">
-  <a class="single__back" href="/">home</a>
-  <h1 class="single__title">{{ .Title }}</h1>
-  <article>
-    {{ .Content }}
-  </article>
+{{- /* Expects a page collection in .pages and an optional .hint */ -}}
+<section class="section" id="projects">
+  <div class="section__head">
+    <span class="section__prompt">$</span>
+    <span class="section__cmd">cd ~/projects &amp;&amp; ls</span>
+    <span class="section__hint">{{ .hint | default "side projects · weekend work" }}</span>
+  </div>
+  <pre class="section__rule" aria-hidden="true">────────────────────────────────────────────────────────────────────────────────</pre>
 
-  {{- if eq .Section "projects" }}
-  <div class="projects" style="margin-top: 2rem;">
-    {{- range $i, $p := .RegularPages }}
+  <div class="projects">
+    {{- range $i, $p := .pages }}
     <article class="project">
       <header class="project__head">
         <span class="project__no">{{ printf "%02d" (add $i 1) }}</span>
@@ -30,6 +30,4 @@
     </article>
     {{- end }}
   </div>
-  {{- end }}
-</article>
-{{ end }}
+</section>

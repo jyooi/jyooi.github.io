@@ -17,12 +17,14 @@ fi
 "${TYPST[@]}" compile resume/fullstack.typ static/JiaYi_Ooi_Resume.pdf
 "${TYPST[@]}" compile resume/sre.typ       resume/build/JiaYi_Ooi_Resume_Platform.pdf
 "${TYPST[@]}" compile resume/fde.typ       resume/build/JiaYi_Ooi_Resume_FDE.pdf
+"${TYPST[@]}" compile resume/amd.typ       resume/build/JiaYi_Ooi_Resume_AMD.pdf
 "${TYPST[@]}" compile resume/master.typ    resume/build/master.pdf
 
 echo "Built:"
 echo "  static/JiaYi_Ooi_Resume.pdf                 (full-stack, public)"
 echo "  resume/build/JiaYi_Ooi_Resume_Platform.pdf  (platform / SRE)"
 echo "  resume/build/JiaYi_Ooi_Resume_FDE.pdf       (forward deployed)"
+echo "  resume/build/JiaYi_Ooi_Resume_AMD.pdf       (AMD enterprise apps / product security)"
 echo "  resume/build/master.pdf                     (master - never send)"
 
 # lib.typ defines the helper and documents it, so it is never a real hit.

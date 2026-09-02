@@ -8,7 +8,7 @@
 #header[Senior Full-Stack Engineer]
 
 #section("Summary")
-Senior full-stack engineer, 8+ years, the last 5+ fully remote for teams in Singapore, the US, and Australia. Builds typed UI component systems and the real-time services behind them - most recently the Uchat Business platform, 100k+ messages a day on React/TypeScript and FastAPI on Kubernetes. Available worldwide as a contractor via my own registered entity, or direct with relocation.
+Full-stack engineer with 8+ years shipping products end to end, the last 5+ fully remote for teams in Singapore, the US, and Australia. Most recently built and operated the messaging platform behind 500+ companies and 100k+ messages a day. Owns both the user-facing product and the real-time services behind it, from empty repo to launch. Available worldwide as a contractor through my own registered entity, or as a direct hire with relocation.
 
 #section("Languages & Technologies")
 #grid(

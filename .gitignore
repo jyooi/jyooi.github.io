@@ -2,3 +2,7 @@
 resume/build/
 node_modules/
 public/
+# Tailored resume variants stay local. Only the public full-stack source is tracked.
+resume/*.typ
+!resume/lib.typ
+!resume/fullstack.typ

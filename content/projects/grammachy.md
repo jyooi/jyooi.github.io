@@ -4,6 +4,8 @@ type: page
 summary: "An offline grammar and spelling checker for Omarchy. Highlight text, press a hotkey, review each fix in a popup, and apply the result through the clipboard."
 active: true
 repo: "https://github.com/jyooi/grammachy"
+demo: "https://plugins.omarchy.org/plugin.html?id=io.github.jyooi.grammachy"
+demo_label: "marketplace"
 weight: 1
 ---
 
@@ -35,10 +37,11 @@ An engine that cannot answer says so, and you switch.
 ### How it fits into Omarchy
 
 The plugin is a Rust CLI plus a QML bar widget.
+It is a verified plugin on the [Omarchy plugin marketplace](https://plugins.omarchy.org/plugin.html?id=io.github.jyooi.grammachy).
 The `omarchy plugin add` command clones the repository and validates it, and nothing else.
 The bar widget shows the pinned companion binary and its sha256 before you install it.
 The `setup` command writes the two hotkeys into the Hyprland bindings file and reloads Hyprland.
 The `doctor` command lists each system package and its state and installs nothing.
 No step needs sudo.
 
-[github.com/jyooi/grammachy](https://github.com/jyooi/grammachy)
+[github.com/jyooi/grammachy](https://github.com/jyooi/grammachy) · [plugins.omarchy.org](https://plugins.omarchy.org/plugin.html?id=io.github.jyooi.grammachy)

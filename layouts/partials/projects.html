@@ -25,7 +25,7 @@
       <div class="project__links">
         <a href="{{ $p.RelPermalink }}">case</a>
         {{- with $p.Params.repo }}<a href="{{ . }}" target="_blank" rel="noopener">repo</a>{{ end }}
-        {{- with $p.Params.demo }}<a href="{{ . }}" target="_blank" rel="noopener">demo</a>{{ end }}
+        {{- with $p.Params.demo }}<a href="{{ . }}" target="_blank" rel="noopener">{{ $p.Params.demo_label | default "demo" }}</a>{{ end }}
       </div>
     </article>
     {{- end }}

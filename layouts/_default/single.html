@@ -5,7 +5,7 @@
   <p class="single__meta">
     <span class="dim">type</span> {{ .Type }}
     {{- if .Params.repo }} <span class="dim">·</span> <a href="{{ .Params.repo }}" target="_blank" rel="noopener" style="color: var(--amber)">repo</a>{{ end }}
-    {{- if .Params.demo }} <span class="dim">·</span> <a href="{{ .Params.demo }}" target="_blank" rel="noopener" style="color: var(--amber)">demo</a>{{ end }}
+    {{- if .Params.demo }} <span class="dim">·</span> <a href="{{ .Params.demo }}" target="_blank" rel="noopener" style="color: var(--amber)">{{ .Params.demo_label | default "demo" }}</a>{{ end }}
   </p>
   <article>
     {{ .Content }}

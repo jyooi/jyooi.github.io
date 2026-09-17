@@ -8,7 +8,7 @@
 #header[Senior Full-Stack Engineer]
 
 #section("Summary")
-Full-stack engineer with 9 years shipping products end to end, the last 5+ fully remote for teams in Singapore, the US, and Australia. Most recently built and operated the messaging platform behind 500+ companies and 100k+ messages a day. Owns both the user-facing product and the real-time services behind it, from empty repo to launch. Available worldwide as a contractor through my own registered entity, or as a direct hire with relocation.
+Full-stack engineer with 9 years shipping products end to end, the last 5+ fully remote for teams in Singapore, the US, and Australia. Most recently built and operated the messaging platform behind 500+ companies and 100k+ messages a day. Owns both the user-facing product and the real-time services behind it, from empty repo to launch. Works daily with coding agents such as Claude Code and pi, and builds the agentic workflows and tooling around them. Available worldwide as a contractor through my own registered entity, or as a direct hire with relocation.
 
 #section("Languages & Technologies")
 #grid(
@@ -26,7 +26,6 @@ Full-stack engineer with 9 years shipping products end to end, the last 5+ fully
 
 #role("Career development sabbatical", "Apr 2026 – Present")
 - Built #link("https://github.com/jyooi/elixir-opentui")[elixir-opentui], #link("https://github.com/jyooi/agent-simple-english")[agent-simple-english], and #link("https://github.com/jyooi/pi-ask-user-question")[pi-ask-user-question] - see Projects.
-- Prepare for the Certified Kubernetes Administrator (CKA) exam and deepen Kubernetes and platform tooling.
 
 #role("Uchat", "Nov 2024 – Apr 2026")
 #subrole("Senior Software Engineer, Business unit", "Remote (Singapore)")

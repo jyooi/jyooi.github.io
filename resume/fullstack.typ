@@ -5,10 +5,10 @@
 #import "lib.typ": *
 #show: resume
 
-#header[Senior Full-Stack Engineer]
+#header[Senior Engineer]
 
 #section("Summary")
-Full-stack engineer with 9 years shipping products end to end, the last 5+ fully remote for teams in Singapore, the US, and Australia. Most recently built and operated the messaging platform behind 500+ companies and 100k+ messages a day. Owns both the user-facing product and the real-time services behind it, from empty repo to launch. Works daily with coding agents such as Claude Code and pi, and builds the agentic workflows and tooling around them. Available worldwide as a contractor through my own registered entity, or as a direct hire with relocation.
+Senior engineer with 9 years shipping products end to end, the last 5+ fully remote for teams in Singapore, the US, and Australia. Most recently built and operated the messaging platform behind 500+ companies and 100k+ messages a day. Owns both the user-facing product and the real-time services behind it, from empty repo to launch. Works daily with coding agents such as Claude Code and pi, and builds the agentic workflows and tooling around them. Available worldwide as a contractor through my own registered entity, or as a direct hire with relocation.
 
 #section("Languages & Technologies")
 #grid(

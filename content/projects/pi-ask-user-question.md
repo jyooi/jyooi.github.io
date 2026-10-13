@@ -4,6 +4,7 @@ type: page
 summary: "A pi TUI extension that lets agents ask structured 1-4 question decisions with multi-select and free-text Other support."
 active: true
 repo: "https://github.com/jyooi/pi-ask-user-question"
+home: false
 weight: 20
 ---
 

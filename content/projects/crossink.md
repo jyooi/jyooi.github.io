@@ -4,6 +4,7 @@ type: page
 summary: "E-reader firmware for the Xteink X4 with Simplified and Traditional Chinese EPUB support, rebased onto each upstream CrossInk release."
 active: true
 repo: "https://github.com/jyooi/CrossInk"
+home: false
 weight: 3
 ---
 

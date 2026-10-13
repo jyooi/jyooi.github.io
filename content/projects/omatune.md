@@ -4,6 +4,7 @@ type: page
 summary: "Music sync for classic iPods on Linux and macOS. It writes the database the stock firmware reads, transcodes FLAC to ALAC, and ships as one binary."
 active: true
 repo: "https://github.com/jyooi/omatune"
+home: false
 weight: 2
 ---
 

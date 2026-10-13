@@ -38,7 +38,7 @@
   {{ partial "note-list.html" (dict "pages" ($notes | first 5) "empty" "no notes yet. first one lands soon.") }}
 </section>
 
-{{ partial "projects.html" (dict "pages" (where .Site.RegularPages "Section" "projects") "hint" "side projects · weekend work") }}
+{{ partial "projects.html" (dict "pages" (where (where .Site.RegularPages "Section" "projects") "Params.home" "ne" false) "hint" "side projects · weekend work") }}
 
 <section class="section" id="more">
   <div class="section__head">

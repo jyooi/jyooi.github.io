@@ -1,13 +1,14 @@
 - company: Sabbatical
   role: Career development
   location: Penang, MY
-  start: Apr 2026
+  start: Aug 2026
   end: Present
   description: >-
-    Built elixir-opentui, an open-source terminal UI framework for Elixir
-    with a high-performance Zig NIF backend - Elm-inspired architecture, a
-    declarative View DSL, and 15+ widgets. Built agent-simple-english, a
-    deterministic ASD-STE100 linter with one Engine, one CLI, and adapters
+    Build a SaaS business. Built elixir-opentui, an open-source terminal UI
+    framework for Elixir with a high-performance Zig NIF backend -
+    Elm-inspired architecture, a declarative View DSL, and 15+ widgets.
+    Built agent-simple-english, a deterministic ASD-STE100 linter with one
+    Engine, one CLI, and adapters
     for pi and Claude Code. Built pi-ask-user-question, a pi TUI extension
     that lets agents ask structured 1-4 question decisions with multi-select
     and Other support. Prepare for the Certified Kubernetes Administrator
@@ -17,7 +18,17 @@
     - Zig
     - Kubernetes
 
-- company: Uchat
+- company: Staynex
+  role: Senior Software Engineer - Contract
+  location: Remote, Singapore
+  start: May 2026
+  end: Jul 2026
+  description: >-
+    Planned and architected the membership feature of a web3 corporate
+    hotel booking system. Designed the lounge pass purchase flow and
+    integrated the payment systems end to end.
+
+- company: Uchat (Zimpligital)
   role: Senior Software Engineer - Business unit
   location: Remote, Singapore
   start: Nov 2024
@@ -61,8 +72,7 @@
   end: Nov 2023
   description: >-
     Built the React + FastAPI liquidity mining platform for Hummingbot,
-    the open-source market-making framework - used by ~1,000 bot operators
-    facilitating ~$100k in daily trading volume. Built and published
+    the open-source market-making framework. Built and published
     @hummingbot/hbui, the Hummingbot design system, with design tokens
     synced from Figma into a Tailwind + React package used across the
     organisation's frontends. Fixed memory leaks that exhausted 8 GB

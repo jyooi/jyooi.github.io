@@ -8,7 +8,7 @@
 #header[Senior Engineer]
 
 #section("Summary")
-Senior engineer with 9 years shipping products end to end, the last 5+ fully remote for teams in Singapore, the US, and Australia. Most recently built and operated the messaging platform behind 500+ companies and 100k+ messages a day. Owns both the user-facing product and the real-time services behind it, from empty repo to launch. Works daily with coding agents such as Claude Code and pi, and builds the agentic workflows and tooling around them. Available worldwide as a contractor through my own registered entity, or as a direct hire with relocation.
+Senior engineer with 9 years shipping products end to end, 7+ of them fully remote for teams in Singapore, the US, and Australia. Most recently built and operated the messaging platform behind 500+ companies and 100k+ messages a day. Owns both the user-facing product and the real-time services behind it, from empty repo to launch. Works daily with coding agents such as Claude Code and pi, and builds the agentic workflows and tooling around them. Available worldwide as a contractor through my own registered entity, or as a direct hire with relocation.
 
 #section("Languages & Technologies")
 #grid(
@@ -24,13 +24,17 @@ Senior engineer with 9 years shipping products end to end, the last 5+ fully rem
 
 #section("Experience")
 
-#role("Career development sabbatical", "Apr 2026 – Present")
-- Built #link("https://github.com/jyooi/elixir-opentui")[elixir-opentui], #link("https://github.com/jyooi/agent-simple-english")[agent-simple-english], and #link("https://github.com/jyooi/pi-ask-user-question")[pi-ask-user-question] - see Projects.
+#role("Career development sabbatical", "Aug 2026 – Present")
+- Build a SaaS business. Built #link("https://github.com/jyooi/elixir-opentui")[elixir-opentui], #link("https://github.com/jyooi/agent-simple-english")[agent-simple-english], and #link("https://github.com/jyooi/pi-ask-user-question")[pi-ask-user-question] - see Projects.
 
-#role("Uchat", "Nov 2024 – Apr 2026")
+#role("Staynex", "May 2026 – Jul 2026")
+#subrole("Senior Software Engineer (Contract)", "Remote (Singapore)")
+- Planned and architected the membership feature of a web3 corporate hotel booking system.
+- Designed the lounge pass purchase flow and integrated the payment systems end to end.
+
+#role("Uchat (Zimpligital)", "Nov 2024 – Apr 2026")
 #subrole("Senior Software Engineer, Business unit", "Remote (Singapore)")
-#context-line[Business platform of Uchat, a consumer messaging app in Thailand. 500+ companies run their B2C conversations on it.]
-- Shipped the real-time platform processing 100k+ messages a day for 500+ business accounts - React/TypeScript (Vite, TanStack Router, Socket.IO) over FastAPI on Kubernetes.
+- Shipped the real-time business platform of Uchat, a consumer messaging app in Thailand, processing 100k+ messages a day for 500+ business accounts - React/TypeScript (Vite, TanStack Router, Socket.IO) over FastAPI on Kubernetes.
 - Built the strongly-typed UI component system the platform is assembled from, giving the team a shared vocabulary for new screens.
 - Load-tested the chat service to 100k concurrent connections ahead of traffic growth.
 - Reviewed the team's frontend work and shaped feature scope directly with product and design.
@@ -38,13 +42,13 @@ Senior engineer with 9 years shipping products end to end, the last 5+ fully rem
 #role("Accomy", "Feb 2024 – Oct 2024")
 #subrole("Senior Software Engineer", "Remote (Singapore)")
 - Led 2 frontend engineers to ship the MVP of a corporate hotel booking platform in 4 months, from empty repo to launch.
-- Established the Next.js + TypeScript codebase from scratch, mentored 2 engineers onto it, and drove architecture decisions with product and design.
+- Established the Next.js + TypeScript codebase, mentored 2 engineers onto it, and drove architecture with product and design.
 
 #role("Coinalpha (Hummingbot)", "Jun 2021 – Nov 2023")
 #subrole("Software Engineer", "Remote (US)")
 #context-line[Hummingbot is an open-source market-making framework for crypto trading bots.]
-- Built the React + FastAPI liquidity mining platform used by \~1,000 bot operators facilitating \~\$100k in daily trading volume.
-- Built and published #link("https://github.com/hummingbot/hbui")[\@hummingbot/hbui], the Hummingbot design system - design tokens synced from Figma into a Tailwind + React package consumed across the organisation's frontends.
+- Built the React + FastAPI liquidity mining platform, both the frontend and the backend REST API.
+- Built and published #link("https://github.com/hummingbot/hbui")[\@hummingbot/hbui], the Hummingbot design system - Figma design tokens in a Tailwind + React package.
 - Fixed memory leaks that exhausted 8 GB machines within hours, cutting steady-state memory \~90%.
 
 #role("Areca System", "Jul 2020 – May 2021")
@@ -57,7 +61,7 @@ Senior engineer with 9 years shipping products end to end, the last 5+ fully rem
 - Led deduplication of multi-million-row GPS data, removing \~25% duplicate records that fed customer reports.
 
 #section("Projects")
-- #link("https://github.com/jyooi/elixir-opentui")[*elixir-opentui*] - terminal UI framework for Elixir with Zig NIF backend: Elm-inspired architecture, declarative View DSL, 15+ widgets, double-buffered rendering.
+- #link("https://github.com/jyooi/elixir-opentui")[*elixir-opentui*] - terminal UI framework for Elixir with Zig NIF backend: Elm-inspired architecture, View DSL, 15+ widgets.
 - #link("https://github.com/jyooi/agent-simple-english")[*agent-simple-english*] - deterministic ASD-STE100 linter: Engine, CLI, and pi/Claude Code adapters that gate writes, edits, commits, and replies.
 - #link("https://github.com/jyooi/pi-ask-user-question")[*pi-ask-user-question*] - pi TUI extension for structured questions: multi-select, free-text Other, TUI-only with transcript rendering.
 

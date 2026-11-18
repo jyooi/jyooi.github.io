@@ -24,15 +24,15 @@ Senior engineer with 9 years shipping products end to end, 7+ of them fully remo
 
 #section("Experience")
 
-#role("Career development sabbatical", "Apr 2026 – Present")
-- Built #link("https://github.com/jyooi/elixir-opentui")[elixir-opentui], #link("https://github.com/jyooi/agent-simple-english")[agent-simple-english], and #link("https://github.com/jyooi/pi-ask-user-question")[pi-ask-user-question] - see Projects.
+#role("Career development sabbatical", "Aug 2026 – Present")
+- Build a SaaS business. Built #link("https://github.com/jyooi/elixir-opentui")[elixir-opentui], #link("https://github.com/jyooi/agent-simple-english")[agent-simple-english], and #link("https://github.com/jyooi/pi-ask-user-question")[pi-ask-user-question] - see Projects.
 
 #role("Staynex", "May 2026 – Jul 2026")
 #subrole("Senior Software Engineer (Contract)", "Remote (Singapore)")
 - Planned and architected the membership feature of a web3 corporate hotel booking system.
 - Designed the lounge pass purchase flow and integrated the payment systems end to end.
 
-#role("Uchat", "Nov 2024 – Apr 2026")
+#role("Uchat (Zimpligital)", "Nov 2024 – Apr 2026")
 #subrole("Senior Software Engineer, Business unit", "Remote (Singapore)")
 - Shipped the real-time business platform of Uchat, a consumer messaging app in Thailand, processing 100k+ messages a day for 500+ business accounts - React/TypeScript (Vite, TanStack Router, Socket.IO) over FastAPI on Kubernetes.
 - Built the strongly-typed UI component system the platform is assembled from, giving the team a shared vocabulary for new screens.

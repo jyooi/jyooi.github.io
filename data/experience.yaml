@@ -1,13 +1,14 @@
 - company: Sabbatical
   role: Career development
   location: Penang, MY
-  start: Apr 2026
+  start: Aug 2026
   end: Present
   description: >-
-    Built elixir-opentui, an open-source terminal UI framework for Elixir
-    with a high-performance Zig NIF backend - Elm-inspired architecture, a
-    declarative View DSL, and 15+ widgets. Built agent-simple-english, a
-    deterministic ASD-STE100 linter with one Engine, one CLI, and adapters
+    Build a SaaS business. Built elixir-opentui, an open-source terminal UI
+    framework for Elixir with a high-performance Zig NIF backend -
+    Elm-inspired architecture, a declarative View DSL, and 15+ widgets.
+    Built agent-simple-english, a deterministic ASD-STE100 linter with one
+    Engine, one CLI, and adapters
     for pi and Claude Code. Built pi-ask-user-question, a pi TUI extension
     that lets agents ask structured 1-4 question decisions with multi-select
     and Other support. Prepare for the Certified Kubernetes Administrator
@@ -27,7 +28,7 @@
     hotel booking system. Designed the lounge pass purchase flow and
     integrated the payment systems end to end.
 
-- company: Uchat
+- company: Uchat (Zimpligital)
   role: Senior Software Engineer - Business unit
   location: Remote, Singapore
   start: Nov 2024

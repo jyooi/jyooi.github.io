@@ -17,6 +17,16 @@
     - Zig
     - Kubernetes
 
+- company: Staynex
+  role: Senior Software Engineer - Contract
+  location: Remote, Singapore
+  start: May 2026
+  end: Jul 2026
+  description: >-
+    Planned and architected the membership feature of a web3 corporate
+    hotel booking system. Designed the lounge pass purchase flow and
+    integrated the payment systems end to end.
+
 - company: Uchat
   role: Senior Software Engineer - Business unit
   location: Remote, Singapore
@@ -61,8 +71,7 @@
   end: Nov 2023
   description: >-
     Built the React + FastAPI liquidity mining platform for Hummingbot,
-    the open-source market-making framework - used by ~1,000 bot operators
-    facilitating ~$100k in daily trading volume. Built and published
+    the open-source market-making framework. Built and published
     @hummingbot/hbui, the Hummingbot design system, with design tokens
     synced from Figma into a Tailwind + React package used across the
     organisation's frontends. Fixed memory leaks that exhausted 8 GB
